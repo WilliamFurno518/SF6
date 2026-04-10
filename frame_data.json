@@ -1,0 +1,8183 @@
+{
+  "Ryu": {
+    "character": "Ryu",
+    "stats": {
+      "health": 10000,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "manual_verified",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "Ken": {
+    "character": "Ken",
+    "stats": {
+      "health": 10000,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "Chun-Li": {
+    "character": "Chun-Li",
+    "stats": {
+      "health": 10000,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "Juri": {
+    "character": "Juri",
+    "stats": {
+      "health": null,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "Luke": {
+    "character": "Luke",
+    "stats": {
+      "health": null,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "Cammy": {
+    "character": "Cammy",
+    "stats": {
+      "health": null,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "Guile": {
+    "character": "Guile",
+    "stats": {
+      "health": null,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "Akuma": {
+    "character": "Akuma",
+    "stats": {
+      "health": null,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "Dee Jay": {
+    "character": "Dee Jay",
+    "stats": {
+      "health": null,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "Manon": {
+    "character": "Manon",
+    "stats": {
+      "health": null,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "Marisa": {
+    "character": "Marisa",
+    "stats": {
+      "health": null,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "JP": {
+    "character": "JP",
+    "stats": {
+      "health": null,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "Zangief": {
+    "character": "Zangief",
+    "stats": {
+      "health": null,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "Dhalsim": {
+    "character": "Dhalsim",
+    "stats": {
+      "health": null,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "Kimberly": {
+    "character": "Kimberly",
+    "stats": {
+      "health": null,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "Blanka": {
+    "character": "Blanka",
+    "stats": {
+      "health": null,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "E. Honda": {
+    "character": "E. Honda",
+    "stats": {
+      "health": null,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "Rashid": {
+    "character": "Rashid",
+    "stats": {
+      "health": null,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "A.K.I.": {
+    "character": "A.K.I.",
+    "stats": {
+      "health": null,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "Ed": {
+    "character": "Ed",
+    "stats": {
+      "health": null,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "Jamie": {
+    "character": "Jamie",
+    "stats": {
+      "health": null,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "Lily": {
+    "character": "Lily",
+    "stats": {
+      "health": null,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "M. Bison": {
+    "character": "M. Bison",
+    "stats": {
+      "health": null,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "Terry": {
+    "character": "Terry",
+    "stats": {
+      "health": null,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "Mai": {
+    "character": "Mai",
+    "stats": {
+      "health": null,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "Elena": {
+    "character": "Elena",
+    "stats": {
+      "health": null,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  },
+  "Sagat": {
+    "character": "Sagat",
+    "stats": {
+      "health": null,
+      "pre_jump": null,
+      "walk_speed_forward": null,
+      "walk_speed_back": null
+    },
+    "moves": {
+      "5LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LP",
+          "st.LP",
+          "s.LP",
+          "standing light punch"
+        ]
+      },
+      "5LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "LK",
+          "st.LK",
+          "s.LK",
+          "standing light kick"
+        ]
+      },
+      "5MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -2,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MP",
+          "st.MP",
+          "s.MP",
+          "standing medium punch"
+        ]
+      },
+      "5MK": {
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "on_block": -4,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "MK",
+          "st.MK",
+          "s.MK",
+          "standing medium kick"
+        ]
+      },
+      "5HP": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -2,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HP",
+          "st.HP",
+          "s.HP",
+          "standing heavy punch"
+        ]
+      },
+      "5HK": {
+        "startup": 12,
+        "active": 3,
+        "recovery": 24,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "HK",
+          "st.HK",
+          "s.HK",
+          "standing heavy kick"
+        ]
+      },
+      "2LP": {
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "on_block": -1,
+        "on_hit": 3,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LP",
+          "c.LP",
+          "crouching light punch"
+        ]
+      },
+      "2LK": {
+        "startup": 5,
+        "active": 2,
+        "recovery": 10,
+        "on_block": -2,
+        "on_hit": 1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.LK",
+          "c.LK",
+          "crouching light kick"
+        ]
+      },
+      "2MP": {
+        "startup": 6,
+        "active": 3,
+        "recovery": 12,
+        "on_block": -1,
+        "on_hit": 4,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MP",
+          "c.MP",
+          "crouching medium punch"
+        ]
+      },
+      "2MK": {
+        "startup": 7,
+        "active": 3,
+        "recovery": 17,
+        "on_block": -6,
+        "on_hit": -1,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.MK",
+          "c.MK",
+          "crouching medium kick"
+        ]
+      },
+      "2HP": {
+        "startup": 8,
+        "active": 4,
+        "recovery": 20,
+        "on_block": -5,
+        "on_hit": 2,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HP",
+          "c.HP",
+          "crouching heavy punch"
+        ]
+      },
+      "2HK": {
+        "startup": 9,
+        "active": 3,
+        "recovery": 21,
+        "on_block": -8,
+        "on_hit": "KD",
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "cr.HK",
+          "c.HK",
+          "crouching heavy kick"
+        ]
+      },
+      "JLP": {
+        "startup": 4,
+        "active": 4,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LP",
+          "jumping light punch"
+        ]
+      },
+      "JLK": {
+        "startup": 5,
+        "active": 5,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.LK",
+          "jumping light kick"
+        ]
+      },
+      "JMP": {
+        "startup": 6,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MP",
+          "jumping medium punch"
+        ]
+      },
+      "JMK": {
+        "startup": 7,
+        "active": 6,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.MK",
+          "jumping medium kick"
+        ]
+      },
+      "JHP": {
+        "startup": 8,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HP",
+          "jumping heavy punch"
+        ]
+      },
+      "JHK": {
+        "startup": 9,
+        "active": 7,
+        "recovery": null,
+        "on_block": null,
+        "on_hit": null,
+        "notes": [
+          "Demo estimate, not verified frame data."
+        ],
+        "source": "estimated_generated",
+        "aliases": [
+          "j.HK",
+          "jumping heavy kick"
+        ]
+      }
+    },
+    "metadata": {
+      "status": "demo_estimated",
+      "last_updated": "2026-04-03"
+    }
+  }
+}

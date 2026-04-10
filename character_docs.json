@@ -1,0 +1,398 @@
+{
+  "_meta": {
+    "game": "Street Fighter 6",
+    "dataset_type": "character_docs",
+    "scope": "current roster-complete starter knowledge base",
+    "roster_size": 29,
+    "last_reviewed": "2026-04-03",
+    "notes": [
+      "Roster list aligned to current public Street Fighter 6 roster listings.",
+      "Designed for local RAG / character overview queries.",
+      "Summaries are concise starter docs for chatbot retrieval, not lore-complete biographies.",
+      "Because some public sites block scraping, these docs are intentionally local and curated."
+    ],
+    "sources": {
+      "official_character_hub": "https://www.streetfighter.com/6/character",
+      "ultimate_frame_data_hub": "https://ultimateframedata.com/sf6/"
+    }
+  },
+  "characters": [
+    {
+      "name": "Ryu",
+      "slug": "ryu",
+      "year_added": "Base",
+      "archetype": "fundamental shoto",
+      "overview": "A disciplined martial artist who keeps traveling in search of stronger opponents and personal growth.",
+      "playstyle_summary": "Balanced fireball, anti-air, and footsies character built around solid fundamentals and honest spacing.",
+      "keywords": "shoto, zoning, anti-air, fireball, fundamentals",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/ryu",
+        "frame_data": "https://ultimateframedata.com/sf6/ryu"
+      }
+    },
+    {
+      "name": "Ken",
+      "slug": "ken",
+      "year_added": "Base",
+      "archetype": "rushdown shoto",
+      "overview": "An aggressive rival to Ryu whose toolkit pushes offense harder and converts hits into corner carry.",
+      "playstyle_summary": "Fast-paced pressure, run/Dragonlash offense, explosive Drive Rush conversions, and strong corner momentum.",
+      "keywords": "rushdown, shoto, corner carry, pressure, confirms",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/ken",
+        "frame_data": "https://ultimateframedata.com/sf6/ken"
+      }
+    },
+    {
+      "name": "Chun-Li",
+      "slug": "chunli",
+      "year_added": "Base",
+      "archetype": "footsies / stance",
+      "overview": "A former ICPO agent with elite normals, air mobility options, and Serenity Stream routes.",
+      "playstyle_summary": "Strong neutral buttons, walk speed, anti-airs, and technical routing with stance follow-ups.",
+      "keywords": "footsies, stance, anti-air, walk speed, confirms",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/chunli",
+        "frame_data": "https://ultimateframedata.com/sf6/chunli"
+      }
+    },
+    {
+      "name": "Luke",
+      "slug": "luke",
+      "year_added": "Base",
+      "archetype": "all-rounder",
+      "overview": "A modern MMA-inspired fighter designed as a highly stable, beginner-friendly all-rounder.",
+      "playstyle_summary": "Great mids, straightforward confirms, solid anti-airs, and very reliable pressure for standard game plans.",
+      "keywords": "all-rounder, stable, confirms, anti-air, mids",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/luke",
+        "frame_data": "https://ultimateframedata.com/sf6/luke"
+      }
+    },
+    {
+      "name": "Jamie",
+      "slug": "jamie",
+      "year_added": "Base",
+      "archetype": "drink-based momentum",
+      "overview": "A breakdance-inspired fighter who powers up through drink levels during the match.",
+      "playstyle_summary": "Momentum-oriented offense that gets stronger with drinks, rekka pressure, and stylish corner routes.",
+      "keywords": "drink levels, momentum, rekka, offense, snowball",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/jamie",
+        "frame_data": "https://ultimateframedata.com/sf6/jamie"
+      }
+    },
+    {
+      "name": "Guile",
+      "slug": "guile",
+      "year_added": "Base",
+      "archetype": "charge zoner",
+      "overview": "A military veteran who controls space with Sonic Boom and disciplined anti-air defense.",
+      "playstyle_summary": "Classic keep-out character with powerful projectiles, flash-kick anti-air, and strong screen control.",
+      "keywords": "charge, zoning, sonic boom, flash kick, defense",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/guile",
+        "frame_data": "https://ultimateframedata.com/sf6/guile"
+      }
+    },
+    {
+      "name": "Kimberly",
+      "slug": "kimberly",
+      "year_added": "Base",
+      "archetype": "setplay rushdown",
+      "overview": "A fast ninja-style fighter who overwhelms opponents with movement, sprays, and mix-up pressure.",
+      "playstyle_summary": "Explosive offense, mobility, side-switch pressure, and setplay once she gets close.",
+      "keywords": "rushdown, mobility, mix-up, setplay, ninja",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/kimberly",
+        "frame_data": "https://ultimateframedata.com/sf6/kimberly"
+      }
+    },
+    {
+      "name": "Juri",
+      "slug": "juri",
+      "year_added": "Base",
+      "archetype": "mobile pressure",
+      "overview": "A taekwondo-based fighter with strong movement, pressure resets, and resource-enhanced offense.",
+      "playstyle_summary": "Flexible neutral and offense with stored options, tricky timing, and strong corner harassment.",
+      "keywords": "mobility, pressure, stocks, corner, timing",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/juri",
+        "frame_data": "https://ultimateframedata.com/sf6/juri"
+      }
+    },
+    {
+      "name": "Dee Jay",
+      "slug": "deejay",
+      "year_added": "Base",
+      "archetype": "swaying pressure / all-rounder",
+      "overview": "A rhythm-heavy kickboxer with feints, movement tricks, and strong damage when he gets rolling.",
+      "playstyle_summary": "Versatile offense and midrange control with fakeouts, burst damage, and tempo shifts.",
+      "keywords": "feints, burst, midrange, rhythm, pressure",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/deejay",
+        "frame_data": "https://ultimateframedata.com/sf6/deejay"
+      }
+    },
+    {
+      "name": "Manon",
+      "slug": "manon",
+      "year_added": "Base",
+      "archetype": "grappler / medal system",
+      "overview": "A judoka and model who builds permanent medal levels through command-grab success.",
+      "playstyle_summary": "Uses long pokes and threat of command throws to force mistakes and snowball damage.",
+      "keywords": "grappler, medals, command throw, pokes, snowball",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/manon",
+        "frame_data": "https://ultimateframedata.com/sf6/manon"
+      }
+    },
+    {
+      "name": "Marisa",
+      "slug": "marisa",
+      "year_added": "Base",
+      "archetype": "armored powerhouse",
+      "overview": "A towering gladiator whose heavy strikes and armored tools punish hesitation brutally.",
+      "playstyle_summary": "High damage bruiser with armored pressure, giant buttons, and scary punish routes.",
+      "keywords": "armor, damage, bruiser, big normals, punish",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/marisa",
+        "frame_data": "https://ultimateframedata.com/sf6/marisa"
+      }
+    },
+    {
+      "name": "JP",
+      "slug": "jp",
+      "year_added": "Base",
+      "archetype": "setplay zoner",
+      "overview": "A mastermind who controls screen space with portals, spikes, and delayed threats.",
+      "playstyle_summary": "Trap-heavy zoning and oppressive setups that reward preparation and spacing.",
+      "keywords": "setplay, zoning, traps, portal, control",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/jp",
+        "frame_data": "https://ultimateframedata.com/sf6/jp"
+      }
+    },
+    {
+      "name": "Zangief",
+      "slug": "zangief",
+      "year_added": "Base",
+      "archetype": "grappler",
+      "overview": "The classic wrestling grappler who wins by forcing close-range fear and throw guesses.",
+      "playstyle_summary": "Huge reward off command grabs, anti-air grabs, and intimidating close-range reads.",
+      "keywords": "grappler, command grab, reads, close range, fear",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/zangief",
+        "frame_data": "https://ultimateframedata.com/sf6/zangief"
+      }
+    },
+    {
+      "name": "Dhalsim",
+      "slug": "dhalsim",
+      "year_added": "Base",
+      "archetype": "long-range specialist",
+      "overview": "A yoga master with unmatched reach and unusual air movement.",
+      "playstyle_summary": "Extreme keep-out, teleport trickery, and awkward angles that frustrate conventional neutral.",
+      "keywords": "long range, teleport, zoning, unorthodox, float",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/dhalsim",
+        "frame_data": "https://ultimateframedata.com/sf6/dhalsim"
+      }
+    },
+    {
+      "name": "Cammy",
+      "slug": "cammy",
+      "year_added": "Base",
+      "archetype": "speed rushdown",
+      "overview": "A close-range pressure specialist with fast movement and strong strike/throw offense.",
+      "playstyle_summary": "Relentless rushdown, whiff punishes, divekick threats, and stable confirms when in range.",
+      "keywords": "rushdown, speed, strike/throw, divekick, whiff punish",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/cammy",
+        "frame_data": "https://ultimateframedata.com/sf6/cammy"
+      }
+    },
+    {
+      "name": "E. Honda",
+      "slug": "ehonda",
+      "year_added": "Base",
+      "archetype": "sumo pressure",
+      "overview": "A sumo wrestler with direct pressure tools, headbutt threat, and corner carry.",
+      "playstyle_summary": "Simple, forceful offense that tests defense and capitalizes on respect.",
+      "keywords": "sumo, pressure, headbutt, direct offense, corner carry",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/ehonda",
+        "frame_data": "https://ultimateframedata.com/sf6/ehonda"
+      }
+    },
+    {
+      "name": "Blanka",
+      "slug": "blanka",
+      "year_added": "Base",
+      "archetype": "trickster / mobility",
+      "overview": "A wild fighter with rolling movement, doll setups, and odd angles of attack.",
+      "playstyle_summary": "Chaotic offense, mobility tricks, and unusual pressure patterns that punish unfamiliarity.",
+      "keywords": "trickster, mobility, doll, setplay, unusual angles",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/blanka",
+        "frame_data": "https://ultimateframedata.com/sf6/blanka"
+      }
+    },
+    {
+      "name": "Lily",
+      "slug": "lily",
+      "year_added": "Base",
+      "archetype": "condor rushdown / wind stocks",
+      "overview": "A compact fighter who uses wind-enhanced specials to threaten sudden entries.",
+      "playstyle_summary": "Simple but dangerous pressure once wind stocks are active, with command-grab style threat layered in.",
+      "keywords": "wind stocks, entries, pressure, burst, read-based",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/lily",
+        "frame_data": "https://ultimateframedata.com/sf6/lily"
+      }
+    },
+    {
+      "name": "Rashid",
+      "slug": "rashid",
+      "year_added": "Year 1",
+      "archetype": "mobility / whirlwind pressure",
+      "overview": "A hyper-mobile fighter who uses wind and movement to create layered offense.",
+      "playstyle_summary": "Fast screen control, corner chaos, and rotating pressure sequences built on mobility.",
+      "keywords": "mobility, wind, pressure, corner, speed",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/rashid",
+        "frame_data": "https://ultimateframedata.com/sf6/rashid"
+      }
+    },
+    {
+      "name": "A.K.I.",
+      "slug": "aki",
+      "year_added": "Year 1",
+      "archetype": "poison setplay",
+      "overview": "A technical poison-themed fighter who rewards setup awareness and toxic pressure.",
+      "playstyle_summary": "Applies poison, controls awkward ranges, and converts status advantage into tricky offense.",
+      "keywords": "poison, setup, technical, spacing, status",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/aki",
+        "frame_data": "https://ultimateframedata.com/sf6/aki"
+      }
+    },
+    {
+      "name": "Ed",
+      "slug": "ed",
+      "year_added": "Year 1",
+      "archetype": "boxer / midrange pressure",
+      "overview": "A compact boxer with psycho-powered extensions and strong midrange pressure.",
+      "playstyle_summary": "Strong confirms, quick offense, and good pressure tools from practical ranges.",
+      "keywords": "boxing, midrange, pressure, confirms, psycho power",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/ed",
+        "frame_data": "https://ultimateframedata.com/sf6/ed"
+      }
+    },
+    {
+      "name": "Akuma",
+      "slug": "akuma",
+      "year_added": "Year 1",
+      "archetype": "glass-cannon shoto",
+      "overview": "A demonically powerful shoto with explosive offense and lower durability.",
+      "playstyle_summary": "Top-end offense, air fireball pressure, high damage, and great conversion power at the cost of fragility.",
+      "keywords": "glass cannon, shoto, air fireball, offense, damage",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/akuma",
+        "frame_data": "https://ultimateframedata.com/sf6/akuma"
+      }
+    },
+    {
+      "name": "M. Bison",
+      "slug": "mbison",
+      "year_added": "Year 2",
+      "archetype": "pressure tyrant",
+      "overview": "A returning dictator built around oppressive offense, plus frames, and momentum.",
+      "playstyle_summary": "Bullying pressure, scary corner carry, and explosive damage when he establishes offense.",
+      "keywords": "pressure, plus frames, offense, corner carry, momentum",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/mbison",
+        "frame_data": "https://ultimateframedata.com/sf6/mbison"
+      }
+    },
+    {
+      "name": "Terry",
+      "slug": "terry",
+      "year_added": "Year 2",
+      "archetype": "fundamental brawler",
+      "overview": "A traveling fighter known as the Hungry Wolf, blending straightforward control with explosive confirms.",
+      "playstyle_summary": "Strong grounded buttons, practical confirms, anti-air tools, and accessible offense that still hits hard.",
+      "keywords": "brawler, confirms, grounded, anti-air, hungry wolf",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/terry",
+        "frame_data": "https://ultimateframedata.com/sf6/terry"
+      }
+    },
+    {
+      "name": "Mai",
+      "slug": "mai",
+      "year_added": "Year 2",
+      "archetype": "mobile kunoichi",
+      "overview": "The heir to Shiranui-style ninja arts, using fans, flame, and mobility to pressure from unusual angles.",
+      "playstyle_summary": "Mobile offense, evasive movement, fan-based space control, and slippery pressure sequences.",
+      "keywords": "mobility, fans, ninja, evasive, pressure",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/mai",
+        "frame_data": "https://ultimateframedata.com/sf6/mai"
+      }
+    },
+    {
+      "name": "Elena",
+      "slug": "elena",
+      "year_added": "Year 3",
+      "archetype": "long-limbed mobility",
+      "overview": "A capoeira fighter with long-reaching kicks and fluid movement.",
+      "playstyle_summary": "Pokes from unusual ranges, fluid movement, and rhythm-based offense/defense transitions.",
+      "keywords": "capoeira, long limbs, movement, rhythm, pokes",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/elena",
+        "frame_data": "https://ultimateframedata.com/sf6/elena"
+      }
+    },
+    {
+      "name": "Sagat",
+      "slug": "sagat",
+      "year_added": "Year 3",
+      "archetype": "high-damage zoner",
+      "overview": "A towering Muay Thai emperor built around towering normals and fireball control.",
+      "playstyle_summary": "Classic high/low fireball zoning, long-range control, and punishing anti-airs with big damage.",
+      "keywords": "zoning, fireball, anti-air, long range, muay thai",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/sagat",
+        "frame_data": "https://ultimateframedata.com/sf6/sagat"
+      }
+    },
+    {
+      "name": "Alex",
+      "slug": "alex",
+      "year_added": "Year 3",
+      "archetype": "grappler / brawler hybrid",
+      "overview": "A wrestler who blends direct strikes, movement, and command-grab threat.",
+      "playstyle_summary": "Midrange bruiser with explosive reads, command-throw threat, and momentum once he gets going.",
+      "keywords": "grappler, brawler, command throw, bruiser, momentum",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/alex",
+        "frame_data": "https://ultimateframedata.com/sf6/alex"
+      }
+    },
+    {
+      "name": "C. Viper",
+      "slug": "cviper",
+      "year_added": "Year 3",
+      "archetype": "technical rushdown",
+      "overview": "A high-execution agent with fast movement and layered offense.",
+      "playstyle_summary": "Technical offense, feints, burst entries, and advanced combo routing for specialists.",
+      "keywords": "technical, feints, rushdown, high execution, burst",
+      "source_urls": {
+        "official": "https://www.streetfighter.com/6/character/cviper",
+        "frame_data": "https://ultimateframedata.com/sf6/cviper"
+      }
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "ken_pc_5mk_mid_kill_001",
+    "character": "Ken",
+    "starter": "5MK",
+    "starter_aliases": [
+      "5mk",
+      "st.mk",
+      "standing mk"
+    ],
+    "starter_state": "punish_counter",
+    "position": "mid_screen",
+    "drive_cost": 3,
+    "super_cost": 3,
+    "combo": "5MK(PC) xx Drive Rush, 5HP xx Dragonlash, 2HP xx Run Tatsu xx SA3",
+    "damage": 5200,
+    "stability": "medium",
+    "difficulty": "medium",
+    "goal_tags": [
+      "kill",
+      "max_damage"
+    ],
+    "works_on": "most_characters",
+    "patch": "2026-03",
+    "verified": true,
+    "notes": "Example seed route. Replace with your own training-mode verified route."
+  },
+  {
+    "id": "ken_pc_5mk_mid_stable_001",
+    "character": "Ken",
+    "starter": "5MK",
+    "starter_aliases": [
+      "5mk",
+      "st.mk",
+      "standing mk"
+    ],
+    "starter_state": "punish_counter",
+    "position": "mid_screen",
+    "drive_cost": 2,
+    "super_cost": 0,
+    "combo": "5MK(PC) xx Drive Rush, 5HP xx Jinrai, follow-up",
+    "damage": 3600,
+    "stability": "high",
+    "difficulty": "easy",
+    "goal_tags": [
+      "stable",
+      "meter_efficient"
+    ],
+    "works_on": "universal",
+    "patch": "2026-03",
+    "verified": true,
+    "notes": "Example stable route. Replace with your own verified data."
+  },
+  {
+    "id": "terry_2mk_mid_bnb_001",
+    "character": "Terry",
+    "starter": "2MK",
+    "starter_aliases": [
+      "2mk",
+      "cr.mk",
+      "c.mk"
+    ],
+    "starter_state": "normal_hit",
+    "position": "mid_screen",
+    "drive_cost": 3,
+    "super_cost": 0,
+    "combo": "2MK xx Drive Rush, 5MP > 2MP xx Burn Knuckle",
+    "damage": 2800,
+    "stability": "high",
+    "difficulty": "easy",
+    "goal_tags": [
+      "bnb",
+      "stable"
+    ],
+    "works_on": "universal",
+    "patch": "2026-03",
+    "verified": true,
+    "notes": "Seed entry for Terry support."
+  },
+  {
+    "id": "mai_2mk_mid_bnb_001",
+    "character": "Mai",
+    "starter": "2MK",
+    "starter_aliases": [
+      "2mk",
+      "cr.mk",
+      "c.mk"
+    ],
+    "starter_state": "normal_hit",
+    "position": "mid_screen",
+    "drive_cost": 3,
+    "super_cost": 0,
+    "combo": "2MK xx Drive Rush, 2MP xx special cancel route",
+    "damage": 2700,
+    "stability": "high",
+    "difficulty": "easy",
+    "goal_tags": [
+      "bnb",
+      "stable"
+    ],
+    "works_on": "universal",
+    "patch": "2026-03",
+    "verified": true,
+    "notes": "Seed entry for Mai support."
+  }
+]

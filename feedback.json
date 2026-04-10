@@ -1,0 +1,186 @@
+[
+  {
+    "answer_id": "1214bb3b-9e79-4d46-8515-aa2c492db772",
+    "question": "can ken's mid low punch be canceled?",
+    "answer": "In Street Fighter 6, Ken's mid low punch (LP) can be canceled. Here are some details:\n\n- **Canceling** allows you to link into special moves or other attacks after the mid low punch.\n- This is useful for creating combos and maintaining offensive pressure on your opponent.\n\nEnsure you're practicing the timing to maximize your effectiveness with Ken's moves!",
+    "feedback_type": "neutral",
+    "rating": null,
+    "comment": "that's very useful",
+    "source": "SuperCombo Wiki + LLM (https://wiki.supercombo.gg/w/Street_Fighter_6/Ken)",
+    "timestamp": "2026-04-01T14:25:07.135219"
+  },
+  {
+    "answer_id": "d068c837-1319-4811-b97f-48ea90ffcc41",
+    "question": "what's the frame of ken HP on block",
+    "answer": "Ken's **HP** (Heavy Punch) is a useful move in Street Fighter 6, and its frame data on block is significant for understanding its safety.\n\n- **Frame Advantage on Block**: Ken's HP has a **-2 frame** disadvantage when blocked.\n\nThis means that if you are blocked using Ken's HP, your opponent has a **2-frame** window to retaliate or counterattack. Always be mindful of this frame data to maintain your offensive and defensive strategies effectively!",
+    "feedback_type": "neutral",
+    "rating": null,
+    "comment": "it's not, it should be -3",
+    "source": "SuperCombo Wiki + LLM (https://wiki.supercombo.gg/w/Street_Fighter_6/Ken)",
+    "timestamp": "2026-04-01T14:37:12.276535"
+  },
+  {
+    "answer_id": "f52f588f-1aef-451b-b5bb-1fb97a330d57",
+    "question": "tell me cammy's frame HP on block",
+    "answer": "Cammy's **HP** (Heavy Punch) is an important tool in her moveset in Street Fighter 6. Understanding its frame data on block can help you strategize effectively during matches.\n\n- **Frame Advantage on Block**: Cammy's HP has a **-3 frame** disadvantage when blocked.\n\nThis means that after using Cammy's HP and it gets blocked, your opponent has a **3-frame** window to retaliate or counterattack. Keep this in mind to optimize your offensive and defensive plays!",
+    "feedback_type": "neutral",
+    "rating": null,
+    "comment": "no, it should be -2",
+    "source": "SuperCombo Wiki + LLM (https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy)",
+    "timestamp": "2026-04-01T14:49:24.975669"
+  },
+  {
+    "answer_id": "e7d5ad0f-09ca-4b39-a5dd-8718cc0b306f",
+    "question": "what about ken?",
+    "answer": "In Street Fighter 6, Ken's **HP** (Heavy Punch) has important frame data that affects gameplay.\n\n- **Frame Advantage on Block**: Ken's HP has a **-3 frame** disadvantage when blocked.\n\nThis means that upon being blocked, your opponent has a **3-frame** window to respond with a counterattack. Staying aware of this frame data will help you maintain solid offensive and defensive strategies in your matches!",
+    "feedback_type": "neutral",
+    "rating": null,
+    "comment": "actually, it should be -2",
+    "source": "SuperCombo Wiki + LLM (https://wiki.supercombo.gg/w/Street_Fighter_6/Ken)",
+    "timestamp": "2026-04-01T14:52:35.840197"
+  },
+  {
+    "answer_id": "0e7eb4e8-c90c-4d23-8327-e653af12a50f",
+    "question": "ken's LP damage",
+    "answer": "Ken's **LP** (Light Punch) is a fundamental attack in his arsenal in Street Fighter 6. Here's the damage information:\n\n- **Damage:** Ken's LP deals **30 damage**.\n\nThis move is primarily used for quick attacks, poking, and setting up combos, making it a versatile option in his gameplay strategy.",
+    "feedback_type": "neutral",
+    "rating": null,
+    "comment": "should be 300",
+    "source": "SuperCombo Wiki + LLM (https://wiki.supercombo.gg/w/Street_Fighter_6/Ken)",
+    "timestamp": "2026-04-01T15:59:12.384933"
+  },
+  {
+    "answer_id": "d0125307-e059-4c1d-993c-dfb37cdcb6ac",
+    "question": "HP damage ken",
+    "answer": "In Street Fighter 6, Ken's **HP** (Heavy Punch) is an essential part of his toolkit. Here's the information regarding its damage:\n\n- **Damage**: Ken's HP deals **90 damage**.\n\nThis move is effective for building pressure and can be utilized as a part of various combos. Always consider its frame data on block to optimize your gameplay!",
+    "feedback_type": "dislike",
+    "rating": null,
+    "comment": "should be 800",
+    "source": "SuperCombo Wiki + LLM (https://wiki.supercombo.gg/w/Street_Fighter_6/Ken)",
+    "timestamp": "2026-04-01T15:59:21.818532"
+  },
+  {
+    "answer_id": "8cd295eb-40d4-4df1-913d-27219b8483a9",
+    "question": "ken MP damage",
+    "answer": "In Street Fighter 6, Ken's **MP** (Medium Punch) is an important part of his moveset. Here’s the information regarding its damage:\n\n- **Damage**: Ken's MP deals **70 damage**.\n\nThis move is useful for poking and can be effectively integrated into combos to apply pressure on opponents.",
+    "feedback_type": "neutral",
+    "rating": null,
+    "comment": "should be 600",
+    "source": "SuperCombo Wiki + LLM (https://wiki.supercombo.gg/w/Street_Fighter_6/Ken)",
+    "timestamp": "2026-04-01T15:59:43.388113"
+  },
+  {
+    "answer_id": "3fedec9d-aebe-4172-8350-5f12c1f12af5",
+    "question": "cammy LP f",
+    "answer": "In Street Fighter 6, Cammy's **LP** (Light Punch) is a quick and essential part of her moveset. Here’s the specific information regarding its attributes:\n\n- **Damage:** Cammy's LP deals **30 damage**.\n\nThis move is primarily used for fast attacks and frame pressure, making it effective for combo setups and managing space against opponents.",
+    "feedback_type": "neutral",
+    "rating": null,
+    "comment": "u should remember, for all character's light punch should all be 300",
+    "source": "SuperCombo Wiki + LLM (https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy)",
+    "timestamp": "2026-04-01T16:13:54.391828"
+  },
+  {
+    "answer_id": "e945a64f-f088-4c8e-b262-59cdf589e24f",
+    "question": "chun-li LP f",
+    "answer": "In Street Fighter 6, Chun-Li's **LP** (Light Punch) is a crucial move in her arsenal. Here's the information regarding its damage:\n\n- **Damage**: Chun-Li's LP deals **30 damage**.\n\nThis quick attack is often used for poking and can effectively help in setting up combos, making it a versatile option in her gameplay strategy. \n\nIf you have any further questions about Chun-Li or other characters, feel free to ask!",
+    "feedback_type": "neutral",
+    "rating": null,
+    "comment": "should be 300",
+    "source": "SuperCombo Wiki + LLM (https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li)",
+    "timestamp": "2026-04-01T16:14:37.877961"
+  },
+  {
+    "answer_id": "d9cf4c40-0d3c-401f-b2ef-ee1295949ef0",
+    "question": "chun-li HP f",
+    "answer": "In Street Fighter 6, Chun-Li's **HP** (Heavy Punch) is a strong component of her attack strategy. Here's the damage information for this move:\n\n- **Damage**: Chun-Li's HP deals **900 damage**.\n\nThis attack is powerful for applying pressure, maximizing damage in combos, and punishing opponents effectively. It's important to integrate it wisely into your gameplay for optimal effectiveness. \n\nIf you have any further questions about Chun-Li or other characters, feel free to ask!",
+    "feedback_type": "dislike",
+    "rating": null,
+    "comment": "it should be 800 damage instead of 900",
+    "source": "SuperCombo Wiki + LLM (https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li)",
+    "timestamp": "2026-04-01T20:55:27.020421"
+  },
+  {
+    "answer_id": "76392996-377a-4455-9ef9-19cafeaf92cb",
+    "question": "terry HP on block",
+    "answer": "- **Terry's HP (Heavy Punch) on block:** -2\n\n**Why:** This means that after Terry's Heavy Punch is blocked, he has a slight disadvantage, allowing the opponent to potentially retaliate. The move has a startup of 10 frames, is active for 3 frames, and has a recovery of 21 frames. This frame data indicates that while the move can be effective, players should be cautious about its use in block strings.\n\n**Confidence**: High",
+    "feedback_type": "neutral",
+    "rating": null,
+    "comment": "it should be +1 remember, he is tough because he got advantage",
+    "source": "frame_data_search",
+    "confidence": "high",
+    "question_type": "frame_data",
+    "timestamp": "2026-04-04T01:36:26.066622"
+  },
+  {
+    "answer_id": "5807914e-b5ff-4002-90c7-8936caa1aff2",
+    "question": "terry LK damage",
+    "answer": "- **Damage**: Terry's **LK** (Light Kick) deals **50 damage**.\n\n**Why**: This move is typically used for quick pokes and can be effective in setting up combos or applying pressure to opponents. Understanding its damage output helps players make strategic decisions during matches.\n\n**Confidence**: High",
+    "feedback_type": "neutral",
+    "rating": null,
+    "comment": "remember well, all damages are at least 100. Light punches and light kicks are usually 300, mid punches and kicks are usually 700, heavies are usually 800-900",
+    "source": "frame_data_search",
+    "confidence": "high",
+    "question_type": "frame_data",
+    "timestamp": "2026-04-04T02:04:57.153501"
+  },
+  {
+    "answer_id": "768b3e76-937a-41fc-925d-1c15a32828a7",
+    "question": "now tell me terry MK damage",
+    "answer": "- **Damage**: Terry's **MK** (Medium Kick) deals **70 damage**.\n\n**Why**: This move is useful for poking and can be integrated into combos effectively. It has a relatively quick startup and can help maintain pressure on the opponent, making it a valuable part of Terry's toolkit.\n\n**Confidence**: High",
+    "feedback_type": "neutral",
+    "rating": null,
+    "comment": "should be 700",
+    "source": "frame_data_search",
+    "confidence": "high",
+    "question_type": "frame_data",
+    "timestamp": "2026-04-04T02:17:00.716091"
+  },
+  {
+    "answer_id": "79c079e8-fbd8-4176-8ac4-6bd96d79790f",
+    "question": "ryu 2MP on block frame",
+    "answer": "- **On block**: Ryu's **2MP** (Medium Punch) is **-1**.\n\n**Why**: This means that after Ryu's 2MP is blocked, he is at a slight disadvantage, allowing the opponent to potentially retaliate. The move has a startup of 6 frames, is active for 3 frames, and has a recovery of 12 frames, indicating that while it can be a useful poke, players should be cautious about its use in block strings.\n\n**Confidence**: High",
+    "feedback_type": "neutral",
+    "rating": null,
+    "comment": "should be 0",
+    "source": "frame_data_search",
+    "confidence": "high",
+    "question_type": "frame_data",
+    "timestamp": "2026-04-08T10:11:00.975609"
+  },
+  {
+    "answer_id": "675e2391-03aa-4f5f-8191-d9b2a5d9f52d",
+    "question": "ryu 2MP on block frame",
+    "answer": "- **On block**: Ryu's **2MP** (Medium Punch) is **-1**.\n\n**Why**: This means that after Ryu's 2MP is blocked, he is at a slight disadvantage, allowing the opponent to potentially retaliate. The move has a startup of 6 frames, is active for 3 frames, and has a recovery of 12 frames, indicating that while it can be a useful poke, players should be cautious about its use in block strings.\n\n**Confidence**: High",
+    "feedback_type": "neutral",
+    "rating": null,
+    "comment": "this should be 0",
+    "source": "frame_data_search",
+    "confidence": "high",
+    "question_type": "frame_data",
+    "timestamp": "2026-04-08T10:11:32.229458"
+  },
+  {
+    "answer_id": "73257c91-2c66-4d69-92cb-85050bab5225",
+    "question": "terry HP on block",
+    "answer": "- **Terry's HP (Heavy Punch) on block:** -2\n\n**Why:** This means that after Terry's Heavy Punch is blocked, he is at a slight disadvantage, allowing the opponent to potentially retaliate. The move has a startup of 10 frames, is active for 3 frames, and has a recovery of 21 frames. This frame data indicates that while the move can be effective, players should be cautious about its use in block strings.\n\n**Confidence**: High",
+    "feedback_type": "neutral",
+    "rating": null,
+    "comment": "should be +1",
+    "source": "frame_data_search",
+    "confidence": "high",
+    "question_type": "frame_data",
+    "timestamp": "2026-04-08T17:49:11.593460"
+  },
+  {
+    "answer_id": "296725ab-f529-4588-8977-43fb916016c9",
+    "question": "terry HP on block",
+    "answer": "- **Terry's HP (Heavy Punch) on block:** +1\n\n**Why:** This means that after Terry's Heavy Punch is blocked, he has a slight advantage, allowing him to potentially follow up with additional attacks or pressure. The move has a startup of 10 frames, is active for 3 frames, and has a recovery of 21 frames. This frame data indicates that while the move can be effective, players can use it more aggressively due to the advantage on block.\n\n**Confidence**: High",
+    "feedback_type": "neutral",
+    "rating": null,
+    "comment": "that's because it has 2 hits gives more pressure",
+    "source": "frame_data_search",
+    "confidence": "high",
+    "question_type": "frame_data",
+    "timestamp": "2026-04-08T17:52:14.874813"
+  }
+]
