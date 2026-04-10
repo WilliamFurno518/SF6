@@ -1,0 +1,46 @@
+{
+  "name": "Lily",
+  "slug": "lily",
+  "source": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily",
+  "intro": "Lily is a mobile fighter who uses wind-powered attacks and long-reaching clubs to control space. In Street Fighter 6, she relies on approach tools, strong pressure, and explosive momentum to challenge opponents.",
+  "image": "/static/images/lily.png",
+  "image_original_url": "",
+  "profile": {
+    "Japanese Name": "リリー",
+    "Fighting Style": "Thunderfoot style / Wind-powered combat",
+    "Birthday": "unknown",
+    "Height": "161 cm",
+    "Weight": "48 kg",
+    "Likes": "Nature, spirits",
+    "Hates": "",
+    "Occupation": "Warrior",
+    "Homeland": "Mexico"
+  },
+  "stats_sections": {
+    "Basic": {
+      "Life Points": "10000"
+    },
+    "Ground Movement": {
+      "Forward Walk Speed": "0.042",
+      "Backward Walk Speed": "0.027",
+      "Forward Dash Speed": "21",
+      "Backward Dash Speed": "24",
+      "Forward Dash Distance": "1.261",
+      "Backward Dash Distance": "0.940",
+      "Drive Rush Min. Distance (Throw)": "0.434",
+      "Drive Rush Min. Distance (Block)": "1.900",
+      "Drive Rush Max Distance": "3.044"
+    },
+    "Jumping": {
+      "Jump Speed": "5+39+3",
+      "Jump Apex": "2.139",
+      "Forward Jump Distance": "1.95",
+      "Backward Jump Distance": "1.56"
+    },
+    "Throws": {
+      "Throw Range": "0.8",
+      "Throw Hurtbox": "0.33"
+    }
+  },
+  "crawl_status": "manual_from_screenshot"
+}

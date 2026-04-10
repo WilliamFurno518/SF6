@@ -1,0 +1,61 @@
+{
+  "name": "Kimberly",
+  "slug": "kimberly",
+  "source": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly",
+  "intro": "Kimberly is a fast and unpredictable ninja-style fighter who uses mobility, spray cans, and mix-ups to overwhelm opponents. In Street Fighter 6, she excels at rushdown and momentum-based offense, and her installed music mode further improves parts of her movement.",
+  "image": "/static/images/kimberly.png",
+  "image_original_url": "",
+  "profile": {
+    "Japanese Name": "キンバリー",
+    "Fighting Style": "Bushinryu ninjutsu",
+    "Birthday": "unknown",
+    "Height": "161 cm",
+    "Weight": "68 kg",
+    "Likes": "80s pop culture, music, sneakers",
+    "Hates": "",
+    "Occupation": "Ninja apprentice",
+    "Homeland": "USA"
+  },
+  "stats_sections": {
+    "Basic": {
+      "Life Points": "10000"
+    },
+    "Ground Movement": {
+      "Forward Walk Speed": {
+        "normal": "0.0505",
+        "music_mode": "0.0561"
+      },
+      "Backward Walk Speed": {
+        "normal": "0.033",
+        "music_mode": "0.0366"
+      },
+      "Forward Dash Speed": "18",
+      "Backward Dash Speed": "23",
+      "Forward Dash Distance": "1.409",
+      "Backward Dash Distance": "0.893",
+      "Drive Rush Min. Distance (Throw)": "0.817",
+      "Drive Rush Min. Distance (Block)": "2.479",
+      "Drive Rush Max Distance": "3.565"
+    },
+    "Jumping": {
+      "Jump Speed": "4+38+3",
+      "Jump Apex": "2.115",
+      "Forward Jump Distance": "1.90",
+      "Backward Jump Distance": "1.52"
+    },
+    "Throws": {
+      "Throw Range": "0.8",
+      "Throw Hurtbox": "0.33"
+    }
+  },
+  "special_states": {
+    "Music Mode": {
+      "description": "Activated after spending 3 stocks. Certain movement values increase while the install is active.",
+      "changed_stats": {
+        "Forward Walk Speed": "0.0561",
+        "Backward Walk Speed": "0.0366"
+      }
+    }
+  },
+  "crawl_status": "manual_from_screenshot"
+}

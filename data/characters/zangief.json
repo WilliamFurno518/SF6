@@ -1,0 +1,46 @@
+{
+  "name": "Zangief",
+  "slug": "zangief",
+  "source": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief",
+  "intro": "Zangief is a heavyweight grappler who overwhelms opponents with command grabs, high durability, and terrifying close-range pressure. In Street Fighter 6, he sacrifices mobility for massive reward once he gets in.",
+  "image": "/static/images/zangief.png",
+  "image_original_url": "",
+  "profile": {
+    "Japanese Name": "ザンギエフ",
+    "Fighting Style": "Professional wrestling",
+    "Birthday": "June 1",
+    "Height": "214 cm",
+    "Weight": "181 kg",
+    "Likes": "Wrestling, bears",
+    "Hates": "",
+    "Occupation": "Wrestler",
+    "Homeland": "Russia"
+  },
+  "stats_sections": {
+    "Basic": {
+      "Life Points": "11000"
+    },
+    "Ground Movement": {
+      "Forward Walk Speed": "0.0364",
+      "Backward Walk Speed": "0.025",
+      "Forward Dash Speed": "22",
+      "Backward Dash Speed": "25",
+      "Forward Dash Distance": "1.007",
+      "Backward Dash Distance": "0.712",
+      "Drive Rush Min. Distance (Throw)": "0.327",
+      "Drive Rush Min. Distance (Block)": "1.455",
+      "Drive Rush Max Distance": "3.040"
+    },
+    "Jumping": {
+      "Jump Speed": "5+38+3",
+      "Jump Apex": "2.115",
+      "Forward Jump Distance": "1.725",
+      "Backward Jump Distance": "1.406"
+    },
+    "Throws": {
+      "Throw Range": "1.02",
+      "Throw Hurtbox": "0.49"
+    }
+  },
+  "crawl_status": "manual_from_screenshot"
+}

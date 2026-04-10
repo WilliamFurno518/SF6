@@ -1,0 +1,46 @@
+{
+  "name": "Akuma",
+  "slug": "akuma",
+  "source": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma",
+  "intro": "Akuma is a fearsome martial artist who has embraced the Satsui no Hado, granting him immense power at the cost of his humanity. In Street Fighter 6, he is a high-risk, high-reward character with extremely strong offensive capabilities, high mobility, and devastating damage, but lower health compared to most of the roster.",
+  "image": "/static/images/akuma.png",
+  "image_original_url": "",
+  "profile": {
+    "Japanese Name": "豪鬼",
+    "Fighting Style": "Ansatsuken (Satsui no Hado)",
+    "Birthday": "unknown",
+    "Height": "178 cm",
+    "Weight": "80 kg",
+    "Likes": "Fighting strong opponents",
+    "Hates": "Weakness",
+    "Occupation": "Martial artist",
+    "Homeland": "Japan"
+  },
+  "stats_sections": {
+    "Basic": {
+      "Life Points": "9000"
+    },
+    "Ground Movement": {
+      "Forward Walk Speed": "0.052",
+      "Backward Walk Speed": "0.035",
+      "Forward Dash Speed": "19",
+      "Backward Dash Speed": "23",
+      "Forward Dash Distance": "1.352",
+      "Backward Dash Distance": "0.923",
+      "Drive Rush Min. Distance (Throw)": "0.880",
+      "Drive Rush Min. Distance (Block)": "2.121",
+      "Drive Rush Max Distance": "3.425"
+    },
+    "Jumping": {
+      "Jump Speed": "4+38+3",
+      "Jump Apex": "2.115",
+      "Forward Jump Distance": "1.90",
+      "Backward Jump Distance": "1.52"
+    },
+    "Throws": {
+      "Throw Range": "0.8",
+      "Throw Hurtbox": "0.33"
+    }
+  },
+  "crawl_status": "manual_from_screenshot"
+}

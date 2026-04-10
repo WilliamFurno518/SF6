@@ -1,0 +1,46 @@
+{
+  "name": "Juri",
+  "slug": "juri",
+  "source": "https://wiki.supercombo.gg/w/Street_Fighter_6/Juri",
+  "intro": "Juri is a fast and aggressive fighter who uses her unique Fuha stock system to enhance her attacks. In Street Fighter 6, she excels at mobility, pressure, and mix-ups, making her a highly unpredictable and dangerous opponent.",
+  "image": "/static/images/juri.png",
+  "image_original_url": "",
+  "profile": {
+    "Japanese Name": "ジュリ",
+    "Fighting Style": "Taekwondo / Fuha techniques",
+    "Birthday": "January 1",
+    "Height": "165 cm",
+    "Weight": "46 kg",
+    "Likes": "Chaos, teasing opponents",
+    "Hates": "Boredom",
+    "Occupation": "Thrill seeker",
+    "Homeland": "South Korea"
+  },
+  "stats_sections": {
+    "Basic": {
+      "Life Points": "10000"
+    },
+    "Ground Movement": {
+      "Forward Walk Speed": "0.047",
+      "Backward Walk Speed": "0.032",
+      "Forward Dash Speed": "22",
+      "Backward Dash Speed": "23",
+      "Forward Dash Distance": "1.903",
+      "Backward Dash Distance": "1.114",
+      "Drive Rush Min. Distance (Throw)": "0.641",
+      "Drive Rush Min. Distance (Block)": "2.479",
+      "Drive Rush Max Distance": "3.999"
+    },
+    "Jumping": {
+      "Jump Speed": "4+38+3",
+      "Jump Apex": "2.115",
+      "Forward Jump Distance": "1.90",
+      "Backward Jump Distance": "1.52"
+    },
+    "Throws": {
+      "Throw Range": "0.8",
+      "Throw Hurtbox": "0.33"
+    }
+  },
+  "crawl_status": "manual_from_screenshot"
+}

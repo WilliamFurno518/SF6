@@ -1,0 +1,46 @@
+{
+  "name": "Chun-Li",
+  "slug": "chunli",
+  "source": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li",
+  "intro": "Chun-Li is a highly agile and technical fighter known for her speed, precise control, and powerful kicks. In Street Fighter 6, she excels at footsies, spacing, and maintaining pressure through her superior movement and versatile toolkit.",
+  "image": "/static/images/chunli.png",
+  "image_original_url": "",
+  "profile": {
+    "Japanese Name": "春麗",
+    "Fighting Style": "Chinese martial arts",
+    "Birthday": "March 1",
+    "Height": "169 cm",
+    "Weight": "unknown",
+    "Likes": "Shopping, cooking",
+    "Hates": "Crime",
+    "Occupation": "Interpol officer",
+    "Homeland": "China"
+  },
+  "stats_sections": {
+    "Basic": {
+      "Life Points": "10000"
+    },
+    "Ground Movement": {
+      "Forward Walk Speed": "0.050",
+      "Backward Walk Speed": "0.035",
+      "Forward Dash Speed": "19",
+      "Backward Dash Speed": "25",
+      "Forward Dash Distance": "1.508",
+      "Backward Dash Distance": "1.211",
+      "Drive Rush Min. Distance (Throw)": "1.044",
+      "Drive Rush Min. Distance (Block)": "2.222",
+      "Drive Rush Max Distance": "3.163"
+    },
+    "Jumping": {
+      "Jump Speed": "4+42+3",
+      "Jump Apex": "2.247",
+      "Forward Jump Distance": "2.10",
+      "Backward Jump Distance": "1.68"
+    },
+    "Throws": {
+      "Throw Range": "0.8",
+      "Throw Hurtbox": "0.33"
+    }
+  },
+  "crawl_status": "manual_from_screenshot"
+}

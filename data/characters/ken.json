@@ -1,0 +1,46 @@
+{
+  "name": "Ken",
+  "slug": "ken",
+  "source": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken",
+  "intro": "Ken is an aggressive shoto character who excels at pressure, mix-ups, and fast-paced offense. In Street Fighter 6, he sacrifices some defensive stability for stronger offensive options and mobility, allowing him to overwhelm opponents quickly.",
+  "image": "/static/images/ken.png",
+  "image_original_url": "",
+  "profile": {
+    "Japanese Name": "ケン",
+    "Fighting Style": "Ansatsuken",
+    "Birthday": "February 14",
+    "Height": "175 cm",
+    "Weight": "83 kg",
+    "Likes": "Family",
+    "Hates": "",
+    "Occupation": "Former martial artist / businessman",
+    "Homeland": "USA"
+  },
+  "stats_sections": {
+    "Basic": {
+      "Life Points": "10000"
+    },
+    "Ground Movement": {
+      "Forward Walk Speed": "0.047",
+      "Backward Walk Speed": "0.032",
+      "Forward Dash Speed": "19",
+      "Backward Dash Speed": "23",
+      "Forward Dash Distance": "1.322",
+      "Backward Dash Distance": "0.923",
+      "Drive Rush Min. Distance (Throw)": "0.745",
+      "Drive Rush Min. Distance (Block)": "2.449",
+      "Drive Rush Max Distance": "3.590"
+    },
+    "Jumping": {
+      "Jump Speed": "4+38+3",
+      "Jump Apex": "2.115",
+      "Forward Jump Distance": "1.90",
+      "Backward Jump Distance": "1.52"
+    },
+    "Throws": {
+      "Throw Range": "0.8",
+      "Throw Hurtbox": "0.33"
+    }
+  },
+  "crawl_status": "manual_from_screenshot"
+}

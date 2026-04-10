@@ -1,0 +1,69 @@
+{
+  "name": "Rashid",
+  "slug": "rashid",
+  "source": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid",
+  "intro": "Rashid is a highly mobile fighter who uses wind-based techniques to enhance his movement and pressure. In Street Fighter 6, he becomes significantly more dangerous when empowered by wind, gaining increased mobility and unpredictable movement options.",
+  "image": "/static/images/rashid.png",
+  "image_original_url": "",
+  "profile": {
+    "Japanese Name": "ラシード",
+    "Fighting Style": "Parkour / Wind-based combat",
+    "Birthday": "unknown",
+    "Height": "178 cm",
+    "Weight": "85 kg",
+    "Likes": "Technology, friends",
+    "Hates": "",
+    "Occupation": "Adventurer",
+    "Homeland": "Middle East"
+  },
+  "stats_sections": {
+    "Basic": {
+      "Life Points": "10000"
+    },
+    "Ground Movement": {
+      "Forward Walk Speed": "0.045",
+      "Backward Walk Speed": "0.032",
+      "Forward Dash Speed": "18",
+      "Backward Dash Speed": "25",
+      "Forward Dash Distance": {
+        "normal": "1.20",
+        "wind_enhanced": "1.86"
+      },
+      "Backward Dash Distance": {
+        "normal": "1.10",
+        "wind_enhanced": "1.91"
+      },
+      "Drive Rush Min. Distance (Throw)": "0.796",
+      "Drive Rush Min. Distance (Block)": "2.253",
+      "Drive Rush Max Distance": "2.998"
+    },
+    "Jumping": {
+      "Jump Speed": "4+38+3",
+      "Jump Apex": "2.115",
+      "Forward Jump Distance": {
+        "normal": "1.90",
+        "wind_enhanced": "5.07"
+      },
+      "Backward Jump Distance": {
+        "normal": "1.52",
+        "wind_enhanced": "3.63"
+      }
+    },
+    "Throws": {
+      "Throw Range": "0.8",
+      "Throw Hurtbox": "0.33"
+    }
+  },
+  "special_states": {
+    "Wind Enhancement": {
+      "description": "Certain movements are significantly enhanced when Rashid is empowered by wind, greatly increasing his mobility and jump distance.",
+      "affected_stats": [
+        "Forward Dash Distance",
+        "Backward Dash Distance",
+        "Forward Jump Distance",
+        "Backward Jump Distance"
+      ]
+    }
+  },
+  "crawl_status": "manual_from_input"
+}

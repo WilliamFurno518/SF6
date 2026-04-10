@@ -1,0 +1,46 @@
+{
+  "name": "JP",
+  "slug": "jp",
+  "source": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP",
+  "intro": "JP is a powerful and methodical fighter who uses psycho power to control the battlefield from a distance. In Street Fighter 6, he excels at zoning, traps, and space manipulation, forcing opponents to approach carefully while punishing mistakes with high damage.",
+  "image": "/static/images/jp.png",
+  "image_original_url": "",
+  "profile": {
+    "Japanese Name": "JP",
+    "Fighting Style": "Psycho Power",
+    "Birthday": "unknown",
+    "Height": "191 cm",
+    "Weight": "97 kg",
+    "Likes": "Order, control",
+    "Hates": "Disorder",
+    "Occupation": "Businessman",
+    "Homeland": "Unknown"
+  },
+  "stats_sections": {
+    "Basic": {
+      "Life Points": "10000"
+    },
+    "Ground Movement": {
+      "Forward Walk Speed": "0.037",
+      "Backward Walk Speed": "0.025",
+      "Forward Dash Speed": "22",
+      "Backward Dash Speed": "23",
+      "Forward Dash Distance": "1.454",
+      "Backward Dash Distance": "1.003",
+      "Drive Rush Min. Distance (Throw)": "0.525",
+      "Drive Rush Min. Distance (Block)": "1.857",
+      "Drive Rush Max Distance": "3.628"
+    },
+    "Jumping": {
+      "Jump Speed": "4+38+3",
+      "Jump Apex": "2.115",
+      "Forward Jump Distance": "1.90",
+      "Backward Jump Distance": "1.52"
+    },
+    "Throws": {
+      "Throw Range": "0.8",
+      "Throw Hurtbox": "0.33"
+    }
+  },
+  "crawl_status": "manual_from_screenshot"
+}

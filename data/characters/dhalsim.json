@@ -1,0 +1,46 @@
+{
+  "name": "Dhalsim",
+  "slug": "dhalsim",
+  "source": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim",
+  "intro": "Dhalsim is a unique zoning character who uses long-range attacks and unpredictable movement to control space. In Street Fighter 6, he excels at keeping opponents at a distance with his stretchy limbs, teleportation, and tricky aerial mobility.",
+  "image": "/static/images/dhalsim.png",
+  "image_original_url": "",
+  "profile": {
+    "Japanese Name": "ダルシム",
+    "Fighting Style": "Yoga",
+    "Birthday": "November 22",
+    "Height": "176 cm",
+    "Weight": "48 kg",
+    "Likes": "Meditation",
+    "Hates": "Violence",
+    "Occupation": "Monk",
+    "Homeland": "India"
+  },
+  "stats_sections": {
+    "Basic": {
+      "Life Points": "10000"
+    },
+    "Ground Movement": {
+      "Forward Walk Speed": "0.028",
+      "Backward Walk Speed": "0.025",
+      "Forward Dash Speed": "25",
+      "Backward Dash Speed": "23",
+      "Forward Dash Distance": "1.467",
+      "Backward Dash Distance": "1.00",
+      "Drive Rush Min. Distance (Throw)": "0.471",
+      "Drive Rush Min. Distance (Block)": "1.787",
+      "Drive Rush Max Distance": "2.700"
+    },
+    "Jumping": {
+      "Jump Speed": "4+68+3",
+      "Jump Apex": "2.178",
+      "Forward Jump Distance": "2.04",
+      "Backward Jump Distance": "1.768"
+    },
+    "Throws": {
+      "Throw Range": "0.8",
+      "Throw Hurtbox": "0.33"
+    }
+  },
+  "crawl_status": "manual_from_screenshot"
+}

@@ -1,1 +1,46 @@
-
+{
+  "name": "A.K.I.",
+  "slug": "aki",
+  "source": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I.",
+  "intro": "A.K.I. is a mysterious and unsettling assassin who serves under F.A.N.G. She specializes in poison-based attacks, applying damage over time and controlling the pace of the fight with tricky movement and deceptive pressure.",
+  "image": "/static/images/aki.png",
+  "image_original_url": "",
+  "profile": {
+    "Japanese Name": "A.K.I.",
+    "Fighting Style": "Poison-based techniques",
+    "Birthday": "unknown",
+    "Height": "173 cm",
+    "Weight": "57 kg",
+    "Likes": "Poison, experimentation",
+    "Hates": "Good weather, Everyone (except her teacher)",
+    "Occupation": "Assassin",
+    "Homeland": "China"
+  },
+  "stats_sections": {
+    "Basic": {
+      "Life Points": "10000"
+    },
+    "Ground Movement": {
+      "Forward Walk Speed": "0.0452",
+      "Backward Walk Speed": "0.032",
+      "Forward Dash Speed": "19",
+      "Backward Dash Speed": "23",
+      "Forward Dash Distance": "1.300",
+      "Backward Dash Distance": "1.079",
+      "Drive Rush Min. Distance (Throw)": "0.907",
+      "Drive Rush Min. Distance (Block)": "2.437",
+      "Drive Rush Max Distance": "4.049"
+    },
+    "Jumping": {
+      "Jump Speed": "4+40+3",
+      "Jump Apex": "2.176",
+      "Forward Jump Distance": "2.00",
+      "Backward Jump Distance": "1.60"
+    },
+    "Throws": {
+      "Throw Range": "0.8",
+      "Throw Hurtbox": "0.33"
+    }
+  },
+  "crawl_status": "manual_from_screenshot"
+}

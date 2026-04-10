@@ -1,0 +1,46 @@
+{
+  "name": "Ryu",
+  "slug": "ryu",
+  "source": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu",
+  "intro": "Ryu is a disciplined martial artist and the central character of the Street Fighter series. In Street Fighter 6, he continues his journey of self-improvement, seeking to perfect his Ansatsuken style while mastering the power within him. He is known for his balanced playstyle, strong fundamentals, and iconic techniques such as Hadoken, Shoryuken, and Tatsumaki Senpukyaku.",
+  "image": "/static/images/ryu.png",
+  "image_original_url": "",
+  "profile": {
+    "Japanese Name": "リュウ",
+    "Fighting Style": "Ansatsuken",
+    "Birthday": "July 21",
+    "Height": "175 cm",
+    "Weight": "85 kg",
+    "Likes": "Martial arts, training, traveling",
+    "Hates": "Spiders",
+    "Occupation": "Martial artist",
+    "Homeland": "Japan"
+  },
+  "stats_sections": {
+    "Basic": {
+      "Life Points": "10000"
+    },
+    "Ground Movement": {
+      "Forward Walk Speed": "0.047",
+      "Backward Walk Speed": "0.032",
+      "Forward Dash Speed": "19",
+      "Backward Dash Speed": "23",
+      "Forward Dash Distance": "1.252",
+      "Backward Dash Distance": "0.923",
+      "Drive Rush Min. Distance (Throw)": "0.525",
+      "Drive Rush Min. Distance (Block)": "1.878",
+      "Drive Rush Max Distance": "3.628"
+    },
+    "Jumping": {
+      "Jump Speed": "4+38+3",
+      "Jump Apex": "2.115",
+      "Forward Jump Distance": "1.90",
+      "Backward Jump Distance": "1.52"
+    },
+    "Throws": {
+      "Throw Range": "0.8",
+      "Throw Hurtbox": "0.33"
+    }
+  },
+  "crawl_status": "manual_completed"
+}

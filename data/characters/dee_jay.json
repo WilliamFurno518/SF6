@@ -1,0 +1,46 @@
+{
+  "name": "Dee Jay",
+  "slug": "deejay",
+  "source": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay",
+  "intro": "Dee Jay is a rhythm-based fighter who combines strong zoning tools with fluid movement and tricky offense. In Street Fighter 6, he excels at controlling the pace of the match while maintaining pressure with unpredictable timing and mix-ups.",
+  "image": "/static/images/deejay.png",
+  "image_original_url": "",
+  "profile": {
+    "Japanese Name": "ディージェイ",
+    "Fighting Style": "Kickboxing",
+    "Birthday": "October 31",
+    "Height": "184 cm",
+    "Weight": "92 kg",
+    "Likes": "Music, dancing",
+    "Hates": "",
+    "Occupation": "Musician",
+    "Homeland": "Jamaica"
+  },
+  "stats_sections": {
+    "Basic": {
+      "Life Points": "10000"
+    },
+    "Ground Movement": {
+      "Forward Walk Speed": "0.043",
+      "Backward Walk Speed": "0.032",
+      "Forward Dash Speed": "19",
+      "Backward Dash Speed": "23",
+      "Forward Dash Distance": "1.50",
+      "Backward Dash Distance": "0.90",
+      "Drive Rush Min. Distance (Throw)": "0.763",
+      "Drive Rush Min. Distance (Block)": "2.535",
+      "Drive Rush Max Distance": "2.713"
+    },
+    "Jumping": {
+      "Jump Speed": "4+38+3",
+      "Jump Apex": "2.115",
+      "Forward Jump Distance": "1.90",
+      "Backward Jump Distance": "1.52"
+    },
+    "Throws": {
+      "Throw Range": "0.8",
+      "Throw Hurtbox": "0.33"
+    }
+  },
+  "crawl_status": "manual_from_screenshot"
+}

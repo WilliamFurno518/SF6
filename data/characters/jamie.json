@@ -1,0 +1,46 @@
+{
+  "name": "Jamie",
+  "slug": "jamie",
+  "source": "https://wiki.supercombo.gg/w/Street_Fighter_6/Jamie",
+  "intro": "Jamie is a fluid and stylish fighter who uses a unique drink system to power up his abilities during the match. In Street Fighter 6, he combines mobility, mix-ups, and scaling strength to become more dangerous as the fight progresses.",
+  "image": "/static/images/jamie.png",
+  "image_original_url": "",
+  "profile": {
+    "Japanese Name": "ジェイミー",
+    "Fighting Style": "Drunken boxing",
+    "Birthday": "unknown",
+    "Height": "174 cm",
+    "Weight": "77 kg",
+    "Likes": "Yun and Yang, drinking",
+    "Hates": "",
+    "Occupation": "Peacekeeper",
+    "Homeland": "China"
+  },
+  "stats_sections": {
+    "Basic": {
+      "Life Points": "10000"
+    },
+    "Ground Movement": {
+      "Forward Walk Speed": "0.048",
+      "Backward Walk Speed": "0.035",
+      "Forward Dash Speed": "19",
+      "Backward Dash Speed": "23",
+      "Forward Dash Distance": "1.50",
+      "Backward Dash Distance": "0.85",
+      "Drive Rush Min. Distance (Throw)": "0.988",
+      "Drive Rush Min. Distance (Block)": "2.030",
+      "Drive Rush Max Distance": "3.002"
+    },
+    "Jumping": {
+      "Jump Speed": "4+38+3",
+      "Jump Apex": "2.115",
+      "Forward Jump Distance": "1.90",
+      "Backward Jump Distance": "1.52"
+    },
+    "Throws": {
+      "Throw Range": "0.8",
+      "Throw Hurtbox": "0.33"
+    }
+  },
+  "crawl_status": "manual_from_screenshot"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Manon",
+  "slug": "manon",
+  "source": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon",
+  "intro": "Manon is a grappler who combines judo techniques with graceful movements. In Street Fighter 6, she focuses on command grabs, strong neutral control, and building momentum through successful throws.",
+  "image": "/static/images/manon.png",
+  "image_original_url": "",
+  "profile": {
+    "Japanese Name": "マノン",
+    "Fighting Style": "Judo",
+    "Birthday": "",
+    "Height": "175 cm",
+    "Weight": "58 kg",
+    "Likes": "Dance, beauty",
+    "Hates": "",
+    "Occupation": "Model / Judo athlete",
+    "Homeland": "France"
+  },
+  "stats_sections": {
+    "Basic": {
+      "Life Points": "10000"
+    },
+    "Ground Movement": {
+      "Forward Walk Speed": "0.0452",
+      "Backward Walk Speed": "0.031",
+      "Forward Dash Speed": "21",
+      "Backward Dash Speed": "25",
+      "Forward Dash Distance": "1.499",
+      "Backward Dash Distance": "1.254",
+      "Drive Rush Min. Distance (Throw)": "0.506",
+      "Drive Rush Min. Distance (Block)": "1.417",
+      "Drive Rush Max Distance": "2.347"
+    },
+    "Jumping": {
+      "Jump Speed": "4+38+3",
+      "Jump Apex": "2.115",
+      "Forward Jump Distance": "1.90",
+      "Backward Jump Distance": "1.52"
+    },
+    "Throws": {
+      "Throw Range": "0.8",
+      "Throw Hurtbox": "0.33"
+    }
+  },
+  "crawl_status": "manual_from_screenshot"
+}

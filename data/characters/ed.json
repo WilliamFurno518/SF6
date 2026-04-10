@@ -1,0 +1,46 @@
+{
+  "name": "Ed",
+  "slug": "ed",
+  "source": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed",
+  "intro": "Ed is a boxer who combines fast punches with psycho power to control the pace of the fight. In Street Fighter 6, he excels at mid-range pressure, strong drive rush offense, and converting openings into damaging combos.",
+  "image": "/static/images/ed.png",
+  "image_original_url": "",
+  "profile": {
+    "Japanese Name": "エド",
+    "Fighting Style": "Boxing / Psycho Power",
+    "Birthday": "unknown",
+    "Height": "182 cm",
+    "Weight": "86 kg",
+    "Likes": "Training",
+    "Hates": "",
+    "Occupation": "Fighter",
+    "Homeland": "Germany"
+  },
+  "stats_sections": {
+    "Basic": {
+      "Life Points": "10000"
+    },
+    "Ground Movement": {
+      "Forward Walk Speed": "0.0475",
+      "Backward Walk Speed": "0.032",
+      "Forward Dash Speed": "19",
+      "Backward Dash Speed": "23",
+      "Forward Dash Distance": "1.348",
+      "Backward Dash Distance": "0.803",
+      "Drive Rush Min. Distance (Throw)": "0.910",
+      "Drive Rush Min. Distance (Block)": "2.190",
+      "Drive Rush Max Distance": "3.374"
+    },
+    "Jumping": {
+      "Jump Speed": "4+38+3",
+      "Jump Apex": "2.115",
+      "Forward Jump Distance": "1.90",
+      "Backward Jump Distance": "1.52"
+    },
+    "Throws": {
+      "Throw Range": "0.8",
+      "Throw Hurtbox": "0.33"
+    }
+  },
+  "crawl_status": "manual_from_screenshot"
+}

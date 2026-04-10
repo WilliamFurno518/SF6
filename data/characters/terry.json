@@ -1,0 +1,46 @@
+{
+  "name": "Terry",
+  "slug": "terry",
+  "source": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry",
+  "intro": "Terry is a well-rounded fighter who combines strong fundamentals with powerful strikes and pressure tools. In Street Fighter 6, he excels at mid-range combat, consistent damage, and maintaining offensive momentum.",
+  "image": "/static/images/terry.png",
+  "image_original_url": "",
+  "profile": {
+    "Japanese Name": "テリー",
+    "Fighting Style": "Brawling / Street fighting",
+    "Birthday": "March 15",
+    "Height": "182 cm",
+    "Weight": "77 kg",
+    "Likes": "Rock music, fighting",
+    "Hates": "",
+    "Occupation": "Fighter",
+    "Homeland": "USA"
+  },
+  "stats_sections": {
+    "Basic": {
+      "Life Points": "10000"
+    },
+    "Ground Movement": {
+      "Forward Walk Speed": "0.048",
+      "Backward Walk Speed": "0.032",
+      "Forward Dash Speed": "19",
+      "Backward Dash Speed": "23",
+      "Forward Dash Distance": "1.50",
+      "Backward Dash Distance": "0.985",
+      "Drive Rush Min. Distance (Throw)": "0.634",
+      "Drive Rush Min. Distance (Block)": "2.416",
+      "Drive Rush Max Distance": "3.181"
+    },
+    "Jumping": {
+      "Jump Speed": "4+38+3",
+      "Jump Apex": "2.115",
+      "Forward Jump Distance": "1.90",
+      "Backward Jump Distance": "1.52"
+    },
+    "Throws": {
+      "Throw Range": "0.8",
+      "Throw Hurtbox": "0.33"
+    }
+  },
+  "crawl_status": "manual_from_screenshot"
+}

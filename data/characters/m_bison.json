@@ -1,0 +1,46 @@
+{
+  "name": "M. Bison",
+  "slug": "mbison",
+  "source": "https://wiki.supercombo.gg/w/Street_Fighter_6/M._Bison",
+  "intro": "M. Bison is a powerful and oppressive character who uses psycho power to dominate opponents. In Street Fighter 6, he excels at pressure, strong offense, and controlling the pace of the match with threatening attacks.",
+  "image": "/static/images/mbison.png",
+  "image_original_url": "",
+  "profile": {
+    "Japanese Name": "ベガ",
+    "Fighting Style": "Psycho Power",
+    "Birthday": "April 17",
+    "Height": "182 cm",
+    "Weight": "112 kg",
+    "Likes": "Power, domination",
+    "Hates": "",
+    "Occupation": "Dictator",
+    "Homeland": "Unknown"
+  },
+  "stats_sections": {
+    "Basic": {
+      "Life Points": "10000"
+    },
+    "Ground Movement": {
+      "Forward Walk Speed": "0.048",
+      "Backward Walk Speed": "0.0312",
+      "Forward Dash Speed": "19",
+      "Backward Dash Speed": "23",
+      "Forward Dash Distance": "1.54",
+      "Backward Dash Distance": "0.754",
+      "Drive Rush Min. Distance (Throw)": "0.593",
+      "Drive Rush Min. Distance (Block)": "2.650",
+      "Drive Rush Max Distance": "4.425"
+    },
+    "Jumping": {
+      "Jump Speed": "4+38+3",
+      "Jump Apex": "2.115",
+      "Forward Jump Distance": "1.90",
+      "Backward Jump Distance": "1.52"
+    },
+    "Throws": {
+      "Throw Range": "0.8",
+      "Throw Hurtbox": "0.33"
+    }
+  },
+  "crawl_status": "manual_from_screenshot"
+}

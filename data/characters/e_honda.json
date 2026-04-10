@@ -1,0 +1,46 @@
+{
+  "name": "E. Honda",
+  "slug": "ehonda",
+  "source": "https://wiki.supercombo.gg/w/Street_Fighter_6/E._Honda",
+  "intro": "E. Honda is a powerful sumo wrestler who specializes in strong defensive play and heavy-hitting attacks. In Street Fighter 6, he excels at absorbing pressure, controlling space with powerful moves, and punishing opponents with high damage.",
+  "image": "/static/images/ehonda.png",
+  "image_original_url": "",
+  "profile": {
+    "Japanese Name": "エドモンド本田",
+    "Fighting Style": "Sumo",
+    "Birthday": "November 3",
+    "Height": "185 cm",
+    "Weight": "137 kg",
+    "Likes": "Baths, traditional culture",
+    "Hates": "",
+    "Occupation": "Sumo wrestler",
+    "Homeland": "Japan"
+  },
+  "stats_sections": {
+    "Basic": {
+      "Life Points": "10500"
+    },
+    "Ground Movement": {
+      "Forward Walk Speed": "0.045",
+      "Backward Walk Speed": "0.025",
+      "Forward Dash Speed": "19",
+      "Backward Dash Speed": "23",
+      "Forward Dash Distance": "1.058",
+      "Backward Dash Distance": "0.601",
+      "Drive Rush Min. Distance (Throw)": "0.213",
+      "Drive Rush Min. Distance (Block)": "1.769",
+      "Drive Rush Max Distance": "3.375"
+    },
+    "Jumping": {
+      "Jump Speed": "4+38+3",
+      "Jump Apex": "2.115",
+      "Forward Jump Distance": "1.90",
+      "Backward Jump Distance": "1.52"
+    },
+    "Throws": {
+      "Throw Range": "0.9",
+      "Throw Hurtbox": "0.43"
+    }
+  },
+  "crawl_status": "manual_from_screenshot"
+}

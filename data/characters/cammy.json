@@ -1,0 +1,46 @@
+{
+  "name": "Cammy",
+  "slug": "cammy",
+  "source": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy",
+  "intro": "Cammy is a fast and aggressive rushdown character who excels at close-range pressure and mix-ups. In Street Fighter 6, she uses her exceptional speed, strong normals, and relentless offense to overwhelm opponents and maintain constant pressure.",
+  "image": "/static/images/cammy.png",
+  "image_original_url": "",
+  "profile": {
+    "Japanese Name": "キャミィ",
+    "Fighting Style": "Shadaloo combat techniques",
+    "Birthday": "January 6",
+    "Height": "164 cm",
+    "Weight": "61 kg",
+    "Likes": "Cats",
+    "Hates": "",
+    "Occupation": "Special forces operative",
+    "Homeland": "United Kingdom"
+  },
+  "stats_sections": {
+    "Basic": {
+      "Life Points": "10000"
+    },
+    "Ground Movement": {
+      "Forward Walk Speed": "0.0505",
+      "Backward Walk Speed": "0.033",
+      "Forward Dash Speed": "18",
+      "Backward Dash Speed": "23",
+      "Forward Dash Distance": "1.32",
+      "Backward Dash Distance": "1.002",
+      "Drive Rush Min. Distance (Throw)": "0.603",
+      "Drive Rush Min. Distance (Block)": "2.027",
+      "Drive Rush Max Distance": "2.796"
+    },
+    "Jumping": {
+      "Jump Speed": "4+38+3",
+      "Jump Apex": "2.115",
+      "Forward Jump Distance": "1.90",
+      "Backward Jump Distance": "1.52"
+    },
+    "Throws": {
+      "Throw Range": "0.8",
+      "Throw Hurtbox": "0.33"
+    }
+  },
+  "crawl_status": "manual_from_screenshot"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Mai",
+  "slug": "mai",
+  "source": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai",
+  "intro": "Mai is a fast and agile fighter who uses ninjutsu and graceful movements to pressure opponents. In Street Fighter 6, she excels at mobility, spacing, and maintaining offensive momentum with quick attacks and evasive movement.",
+  "image": "/static/images/mai.png",
+  "image_original_url": "",
+  "profile": {
+    "Japanese Name": "Shiranui Mai",
+    "Fighting Style": "Shiranui-style ninjutsu",
+    "Birthday": "January 1",
+    "Height": "164 cm",
+    "Weight": "50 kg",
+    "Likes": "Fashion, attention, Andy",
+    "Hates": "",
+    "Occupation": "Kunoichi",
+    "Homeland": "Japan"
+  },
+  "stats_sections": {
+    "Basic": {
+      "Life Points": "10000"
+    },
+    "Ground Movement": {
+      "Forward Walk Speed": "0.050",
+      "Backward Walk Speed": "0.035",
+      "Forward Dash Speed": "18",
+      "Backward Dash Speed": "23",
+      "Forward Dash Distance": "1.450",
+      "Backward Dash Distance": "0.900",
+      "Drive Rush Min. Distance (Throw)": "0.669",
+      "Drive Rush Min. Distance (Block)": "2.383",
+      "Drive Rush Max Distance": "2.977"
+    },
+    "Jumping": {
+      "Jump Speed": "4+38+3",
+      "Jump Apex": "2.115",
+      "Forward Jump Distance": "1.90",
+      "Backward Jump Distance": "1.52"
+    },
+    "Throws": {
+      "Throw Range": "0.8",
+      "Throw Hurtbox": "0.33"
+    }
+  },
+  "crawl_status": "manual_from_screenshot"
+}

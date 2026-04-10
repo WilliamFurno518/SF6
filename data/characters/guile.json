@@ -1,0 +1,46 @@
+{
+  "name": "Guile",
+  "slug": "guile",
+  "source": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile",
+  "intro": "Guile is a defensive specialist who excels at zoning and controlling space with his signature Sonic Boom and Flash Kick. In Street Fighter 6, he dominates neutral play with strong defensive tools, forcing opponents to approach carefully.",
+  "image": "/static/images/guile.png",
+  "image_original_url": "",
+  "profile": {
+    "Japanese Name": "ガイル",
+    "Fighting Style": "Military combat / Kickboxing",
+    "Birthday": "December 23",
+    "Height": "182 cm",
+    "Weight": "86 kg",
+    "Likes": "Family",
+    "Hates": "Evil",
+    "Occupation": "Air Force officer",
+    "Homeland": "USA"
+  },
+  "stats_sections": {
+    "Basic": {
+      "Life Points": "10000"
+    },
+    "Ground Movement": {
+      "Forward Walk Speed": "0.043",
+      "Backward Walk Speed": "0.032",
+      "Forward Dash Speed": "21",
+      "Backward Dash Speed": "23",
+      "Forward Dash Distance": "1.567",
+      "Backward Dash Distance": "0.74",
+      "Drive Rush Min. Distance (Throw)": "0.805",
+      "Drive Rush Min. Distance (Block)": "1.898",
+      "Drive Rush Max Distance": "3.461"
+    },
+    "Jumping": {
+      "Jump Speed": "4+38+3",
+      "Jump Apex": "2.115",
+      "Forward Jump Distance": "1.90",
+      "Backward Jump Distance": "1.52"
+    },
+    "Throws": {
+      "Throw Range": "0.8",
+      "Throw Hurtbox": "0.33"
+    }
+  },
+  "crawl_status": "manual_from_screenshot"
+}

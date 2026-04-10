@@ -1,0 +1,46 @@
+{
+  "name": "Blanka",
+  "slug": "blanka",
+  "source": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka",
+  "intro": "Blanka is a wild and unpredictable fighter who uses electric attacks and beast-like mobility to overwhelm his opponents. In Street Fighter 6, he excels at tricky movement, strong pressure, and mix-ups, making him difficult to read and counter.",
+  "image": "/static/images/blanka.png",
+  "image_original_url": "",
+  "profile": {
+    "Japanese Name": "ブランカ",
+    "Fighting Style": "Electric attacks / Beast-like movements",
+    "Birthday": "February 12",
+    "Height": "192 cm",
+    "Weight": "98 kg",
+    "Likes": "Samantha (his doll), jungle life",
+    "Hates": "Civilization",
+    "Occupation": "Adventurer",
+    "Homeland": "Brazil"
+  },
+  "stats_sections": {
+    "Basic": {
+      "Life Points": "10000"
+    },
+    "Ground Movement": {
+      "Forward Walk Speed": "0.047",
+      "Backward Walk Speed": "0.032",
+      "Forward Dash Speed": "19",
+      "Backward Dash Speed": "23",
+      "Forward Dash Distance": "1.578",
+      "Backward Dash Distance": "1.169",
+      "Drive Rush Min. Distance (Throw)": "0.476",
+      "Drive Rush Min. Distance (Block)": "2.082",
+      "Drive Rush Max Distance": "2.867"
+    },
+    "Jumping": {
+      "Jump Speed": "4+38+3",
+      "Jump Apex": "2.115",
+      "Forward Jump Distance": "1.90",
+      "Backward Jump Distance": "1.52"
+    },
+    "Throws": {
+      "Throw Range": "0.9",
+      "Throw Hurtbox": "0.43"
+    }
+  },
+  "crawl_status": "manual_from_screenshot"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Luke",
+  "slug": "luke",
+  "source": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke",
+  "intro": "Luke is a well-rounded and aggressive fighter who combines solid fundamentals with strong offensive pressure. In Street Fighter 6, he excels at mid-range control, reliable confirms, and maintaining momentum with powerful attacks.",
+  "image": "/static/images/luke.png",
+  "image_original_url": "",
+  "profile": {
+    "Japanese Name": "ルーク",
+    "Fighting Style": "Mixed martial arts",
+    "Birthday": "unknown",
+    "Height": "185 cm",
+    "Weight": "90 kg",
+    "Likes": "Gaming, PC accessories",
+    "Hates": "",
+    "Occupation": "PMC contractor",
+    "Homeland": "USA"
+  },
+  "stats_sections": {
+    "Basic": {
+      "Life Points": "10000"
+    },
+    "Ground Movement": {
+      "Forward Walk Speed": "0.047",
+      "Backward Walk Speed": "0.032",
+      "Forward Dash Speed": "19",
+      "Backward Dash Speed": "23",
+      "Forward Dash Distance": "1.467",
+      "Backward Dash Distance": "0.751",
+      "Drive Rush Min. Distance (Throw)": "0.817",
+      "Drive Rush Min. Distance (Block)": "2.499",
+      "Drive Rush Max Distance": "3.461"
+    },
+    "Jumping": {
+      "Jump Speed": "4+38+3",
+      "Jump Apex": "2.115",
+      "Forward Jump Distance": "1.90",
+      "Backward Jump Distance": "1.52"
+    },
+    "Throws": {
+      "Throw Range": "0.8",
+      "Throw Hurtbox": "0.33"
+    }
+  },
+  "crawl_status": "manual_from_screenshot"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Marisa",
+  "slug": "marisa",
+  "source": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa",
+  "intro": "Marisa is a powerhouse fighter who overwhelms opponents with heavy armor-like pressure and massive damage. In Street Fighter 6, she excels at explosive offense, strong strikes, and intimidating close-range dominance.",
+  "image": "/static/images/marisa.png",
+  "image_original_url": "",
+  "profile": {
+    "Japanese Name": "マリーザ",
+    "Fighting Style": "Pankration",
+    "Birthday": "unknown",
+    "Height": "203 cm",
+    "Weight": "122 kg",
+    "Likes": "Ancient history, strength",
+    "Hates": "",
+    "Occupation": "Jewelry designer / fighter",
+    "Homeland": "Italy"
+  },
+  "stats_sections": {
+    "Basic": {
+      "Life Points": "10500"
+    },
+    "Ground Movement": {
+      "Forward Walk Speed": "0.039",
+      "Backward Walk Speed": "0.027",
+      "Forward Dash Speed": "22",
+      "Backward Dash Speed": "25",
+      "Forward Dash Distance": "1.40",
+      "Backward Dash Distance": "0.90",
+      "Drive Rush Min. Distance (Throw)": "0.544",
+      "Drive Rush Min. Distance (Block)": "1.903",
+      "Drive Rush Max Distance": "3.081"
+    },
+    "Jumping": {
+      "Jump Speed": "4+38+3",
+      "Jump Apex": "2.115",
+      "Forward Jump Distance": "1.90",
+      "Backward Jump Distance": "1.52"
+    },
+    "Throws": {
+      "Throw Range": "0.9",
+      "Throw Hurtbox": "0.38"
+    }
+  },
+  "crawl_status": "manual_from_screenshot"
+}
