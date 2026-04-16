@@ -1,1 +1,1263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SF6 Technical Bot</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --bg2: #11182d;
+      --panel: rgba(18,26,49,0.88);
+      --panel2: rgba(255,255,255,0.04);
+      --line: rgba(255,255,255,0.08);
+      --text: #eef2ff;
+      --muted: #9eabc7;
+      --accent: #ff6a3d;
+      --accent2: #ff936f;
+      --green: #1faa66;
+      --yellow: #cda11d;
+      --red: #d95366;
+      --blue: #4b8fff;
+      --shadow: 0 16px 50px rgba(0,0,0,.34);
+      --radius: 18px;
+      --composer-height: 170px;
+    }
 
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(255,106,61,0.16), transparent 28%),
+        radial-gradient(circle at top right, rgba(75,143,255,0.12), transparent 24%),
+        linear-gradient(180deg, #0a0f1d 0%, #0b1020 100%);
+      overflow: hidden;
+    }
+
+    .app {
+      width: min(1280px, calc(100% - 32px));
+      height: calc(100vh - 36px);
+      margin: 18px auto;
+      display: flex;
+      flex-direction: column;
+      background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02));
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      backdrop-filter: blur(12px);
+      position: relative;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 18px 20px 14px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      flex-shrink: 0;
+    }
+
+    .brand h1 {
+      margin: 0;
+      font-size: 24px;
+      letter-spacing: -0.03em;
+    }
+
+    .brand p {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .right-tools {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .stats-inline {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .stat-pill, .chip {
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.05);
+      font-size: 12px;
+      color: #dce6ff;
+      white-space: nowrap;
+    }
+
+    .chip.green { background: rgba(31,170,102,.15); color: #d9ffeb; }
+    .chip.yellow { background: rgba(205,161,29,.15); color: #fff2bf; }
+    .chip.red { background: rgba(217,83,102,.16); color: #ffe0e5; }
+    .chip.blue { background: rgba(75,143,255,.16); color: #dce9ff; }
+
+    .btn {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.05);
+      color: var(--text);
+      border-radius: 12px;
+      padding: 9px 12px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .btn:hover { background: rgba(255,255,255,0.08); }
+
+    .btn.primary {
+      border: 0;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: white;
+    }
+
+    /* ===== CHAT AREA WITH SIDE PANELS ===== */
+    .chat-shell {
+      flex: 1;
+      min-height: 0;
+      display: grid;
+      grid-template-columns: 180px minmax(0, 1fr) 180px;
+      gap: 0;
+      position: relative;
+    }
+
+    .side-panel {
+      min-height: 0;
+      overflow-y: auto;
+      padding: 12px 8px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      backdrop-filter: blur(8px);
+      z-index: 2;
+    }
+
+    .side-panel.left {
+      border-right: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .side-panel.right {
+      border-left: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .side-title {
+      font-size: 11px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      margin: 0 0 8px;
+      text-align: center;
+    }
+
+    .character-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+      align-items: start;
+      justify-items: center;
+    }
+
+    .character-btn {
+      width: 54px;
+      border: 1px solid rgba(255,255,255,0.08);
+      background: rgba(255,255,255,0.04);
+      border-radius: 12px;
+      padding: 5px;
+      cursor: pointer;
+      transition: background .15s ease, transform .15s ease;
+    }
+
+    .character-btn:hover,
+    .attack-btn:hover,
+    .arrow-btn:hover,
+    .example-btn:hover {
+      background: rgba(255,255,255,0.10);
+      transform: translateY(-1px);
+    }
+
+    .character-btn img {
+      width: 100%;
+      height: 44px;
+      object-fit: cover;
+      border-radius: 8px;
+      display: block;
+    }
+
+    .character-name {
+      margin-top: 4px;
+      font-size: 9px;
+      color: #dbe3fa;
+      text-align: center;
+      line-height: 1.1;
+      word-break: break-word;
+    }
+
+    .controls-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+      padding-top: 4px;
+    }
+
+    .arrow-pad {
+      display: grid;
+      grid-template-columns: repeat(3, 48px);
+      grid-template-rows: repeat(3, 48px);
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .arrow-spacer {
+      width: 48px;
+      height: 48px;
+    }
+
+    .arrow-btn {
+      width: 48px;
+      height: 48px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.05);
+      color: var(--text);
+      border-radius: 12px;
+      cursor: pointer;
+      font-size: 20px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+    }
+
+    .attack-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 42px);
+      gap: 8px;
+      justify-content: center;
+    }
+
+    .attack-btn {
+      width: 42px;
+      height: 42px;
+      border: 1px solid rgba(255,255,255,0.08);
+      background: rgba(255,255,255,0.04);
+      border-radius: 10px;
+      padding: 4px;
+      cursor: pointer;
+      transition: background .15s ease, transform .15s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .attack-btn img {
+      width: 28px;
+      height: 28px;
+      object-fit: contain;
+      display: block;
+    }
+
+    .chat {
+      min-width: 0;
+      flex: 1;
+      padding: 16px 18px;
+      padding-bottom: calc(var(--composer-height) + 28px);
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      scroll-behavior: smooth;
+      min-height: 0;
+    }
+
+    .bubble {
+      max-width: min(860px, 100%);
+      border-radius: 18px;
+      padding: 13px 14px;
+      line-height: 1.55;
+      font-size: 14px;
+      border: 1px solid var(--line);
+      word-break: break-word;
+      white-space: pre-wrap;
+    }
+
+    .bubble.user {
+      margin-left: auto;
+      background: linear-gradient(135deg, rgba(255,106,61,.24), rgba(255,106,61,.12));
+    }
+
+    .bubble.assistant {
+      background: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.03));
+    }
+
+    .meta-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    .feedback-mini {
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid rgba(255,255,255,0.07);
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .fb-btn, .fb-submit, .fb-rating {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.05);
+      color: var(--text);
+      border-radius: 10px;
+      padding: 7px 10px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .fb-rating,
+    .fb-rating option {
+      background: #16203a;
+      color: #eef2ff;
+    }
+
+    .fb-btn.active {
+      background: rgba(255,106,61,0.18);
+      border-color: rgba(255,106,61,0.4);
+    }
+
+    .fb-input {
+      flex: 1;
+      min-width: 120px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.05);
+      color: var(--text);
+      border-radius: 10px;
+      padding: 8px 10px;
+      font-size: 12px;
+    }
+
+    /* ===== Fixed Composer ===== */
+    .composer {
+      position: absolute;
+      left: 198px;
+      right: 198px;
+      bottom: 16px;
+      z-index: 20;
+      border-top: none;
+      padding: 0;
+      background: transparent;
+      flex-shrink: 0;
+    }
+
+    .composer-box {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(10, 16, 32, 0.94);
+      backdrop-filter: blur(10px);
+      padding: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.28);
+    }
+
+    .composer-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      align-items: end;
+    }
+
+    textarea {
+      width: 100%;
+      resize: none;
+      min-height: 72px;
+      max-height: 150px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.04);
+      color: var(--text);
+      border-radius: 14px;
+      padding: 11px 12px;
+      font: inherit;
+      font-size: 14px;
+      outline: none;
+    }
+
+    textarea::placeholder, .fb-input::placeholder { color: #8b98b8; }
+
+    .examples {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .example-btn {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.04);
+      color: var(--text);
+      border-radius: 999px;
+      padding: 8px 10px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .loading {
+      color: var(--muted);
+      font-size: 13px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .dots span {
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--accent);
+      animation: bounce 1.2s infinite ease-in-out;
+    }
+
+    .dots span:nth-child(2) { animation-delay: .2s; }
+    .dots span:nth-child(3) { animation-delay: .4s; }
+
+    @keyframes bounce {
+      0%,80%,100% { transform: scale(.5); opacity: .5; }
+      40% { transform: scale(1); opacity: 1; }
+    }
+
+    .markdown p { margin: 8px 0; }
+    .markdown ul { margin: 8px 0 8px 18px; padding: 0; }
+    .markdown li { margin: 4px 0; }
+    .markdown strong { color: white; }
+    .markdown code {
+      background: rgba(255,255,255,0.08);
+      padding: 2px 6px;
+      border-radius: 6px;
+    }
+
+    /* ===== Character Card ===== */
+    .character-card {
+      margin-top: 12px;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 14px;
+      background: rgba(255,255,255,0.03);
+      overflow: hidden;
+    }
+
+    .big-header {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 14px;
+      padding: 12px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .big-image-wrap {
+      min-height: 240px;
+      padding: 10px;
+      background: rgba(255,255,255,0.035);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .big-image {
+      max-height: 240px;
+      width: 100%;
+      object-fit: contain;
+      border-radius: 8px;
+    }
+
+    .character-summary h3 {
+      margin: 0 0 6px;
+      font-size: 20px;
+      letter-spacing: -0.02em;
+    }
+
+    .character-summary p {
+      margin: 0;
+      color: #dbe3fa;
+      line-height: 1.45;
+      font-size: 13px;
+    }
+
+    .character-section {
+      padding: 10px 12px;
+      border-top: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .character-section h4 {
+      margin: 0 0 8px;
+      font-size: 14px;
+      color: #ffffff;
+    }
+
+    .character-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .character-table th,
+    .character-table td {
+      border: 1px solid rgba(255,255,255,0.07);
+      padding: 6px 8px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .character-table th {
+      width: 34%;
+      background: rgba(255,255,255,0.04);
+      color: #f5f8ff;
+      font-weight: 600;
+    }
+
+    .small-note {
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    /* ===== Stats columns ===== */
+    .section-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      padding: 10px 12px 12px;
+      align-items: start;
+    }
+
+    .stats-column {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      min-width: 0;
+    }
+
+    .stats-column .character-section {
+      padding: 0;
+      border-top: none;
+      background: rgba(255,255,255,0.02);
+      border: 1px solid rgba(255,255,255,0.05);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .stats-column .character-section h4 {
+      margin: 0;
+      padding: 10px 12px 8px;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      background: rgba(255,255,255,0.02);
+    }
+
+    .stats-column .character-table {
+      border-radius: 0;
+    }
+
+    .stats-collapsed {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+    }
+
+    .stats-collapsed.open {
+      max-height: 2600px;
+    }
+
+    .toggle-btn {
+      margin-top: 10px;
+      padding: 6px 10px;
+      font-size: 12px;
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,0.1);
+      background: rgba(255,255,255,0.05);
+      color: white;
+      cursor: pointer;
+    }
+
+    .toggle-btn:hover {
+      background: rgba(255,255,255,0.1);
+    }
+
+    @media (max-width: 1080px) {
+      .chat-shell {
+        grid-template-columns: 84px minmax(0, 1fr) 92px;
+      }
+
+      .composer {
+        left: 98px;
+        right: 106px;
+      }
+
+      .character-btn {
+        width: 46px;
+      }
+
+      .character-btn img {
+        height: 38px;
+      }
+
+      .attack-grid {
+        grid-template-columns: repeat(2, 36px);
+      }
+
+      .attack-btn {
+        width: 36px;
+        height: 36px;
+      }
+
+      .attack-btn img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+    @media (max-width: 860px) {
+      :root {
+        --composer-height: 190px;
+      }
+
+      .app {
+        width: calc(100% - 16px);
+        height: calc(100vh - 16px);
+        margin: 8px auto;
+      }
+
+      .topbar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .chat-shell {
+        grid-template-columns: 1fr;
+      }
+
+      .side-panel {
+        display: none;
+      }
+
+      .composer {
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+      }
+
+      .composer-row {
+        grid-template-columns: 1fr;
+      }
+
+      .big-header {
+        grid-template-columns: 1fr;
+      }
+
+      .section-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <div class="topbar">
+      <div class="brand">
+        <h1>SF6 Technical Bot</h1>
+        <p>Combos, frame data, strategy, and grounded answers.</p>
+      </div>
+      <div class="right-tools">
+        <div class="stats-inline">
+          <span class="stat-pill">Feedback <strong id="statFeedback">0</strong></span>
+          <span class="stat-pill">Avg <strong id="statAvg">-</strong></span>
+          <span class="stat-pill">Grounded <strong id="statGrounded">0</strong></span>
+          <span class="stat-pill">Blocked <strong id="statBlocked">0</strong></span>
+        </div>
+        <button class="btn" id="refreshStatsBtn">Refresh</button>
+        <button class="btn" id="clearChatBtn">Clear</button>
+      </div>
+    </div>
+
+    <div class="chat-shell">
+      <!-- LEFT SIDE -->
+      <aside class="side-panel left">
+        <div class="side-title">Characters</div>
+        <div class="character-list" id="characterPanel"></div>
+      </aside>
+
+      <!-- CENTER CHAT -->
+      <section class="chat" id="chatWindow">
+        <div class="bubble assistant">
+          <div class="markdown">
+            <p><strong>Welcome.</strong> Try one of these:</p>
+            <ul>
+              <li><strong>Tell me about Ken</strong></li>
+              <li><strong>Ryu 2MP on block?</strong></li>
+              <li><strong>Terry neutral gameplan</strong></li>
+              <li><strong>hi</strong></li>
+            </ul>
+          </div>
+          <div class="meta-row">
+            <span class="chip green">Verified</span>
+            <span class="chip blue">Source: demo</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- RIGHT SIDE -->
+      <aside class="side-panel right">
+        <div class="controls-wrap">
+          <div>
+            <div class="side-title">Direction</div>
+            <div class="arrow-pad">
+              <div class="arrow-spacer"></div>
+              <button class="arrow-btn" data-insert="8" title="Up">↑</button>
+              <div class="arrow-spacer"></div>
+
+              <button class="arrow-btn" data-insert="4" title="Back">←</button>
+              <div class="arrow-spacer"></div>
+              <button class="arrow-btn" data-insert="6" title="Forward">→</button>
+
+              <div class="arrow-spacer"></div>
+              <button class="arrow-btn" data-insert="2" title="Down">↓</button>
+              <div class="arrow-spacer"></div>
+            </div>
+          </div>
+
+          <div>
+            <div class="side-title">Attack</div>
+            <div class="attack-grid">
+              <button class="attack-btn" data-insert="LP" title="LP">
+                <img src="/static/icons/Lp.png" alt="LP">
+              </button>
+              <button class="attack-btn" data-insert="LK" title="LK">
+                <img src="/static/icons/Lk.png" alt="LK">
+              </button>
+              <button class="attack-btn" data-insert="MP" title="MP">
+                <img src="/static/icons/Mp.png" alt="MP">
+              </button>
+              <button class="attack-btn" data-insert="MK" title="MK">
+                <img src="/static/icons/Mk.png" alt="MK">
+              </button>
+              <button class="attack-btn" data-insert="HP" title="HP">
+                <img src="/static/icons/Hp.png" alt="HP">
+              </button>
+              <button class="attack-btn" data-insert="HK" title="HK">
+                <img src="/static/icons/Hk.png" alt="HK">
+              </button>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <section class="composer">
+      <div class="composer-box">
+        <div class="composer-row">
+          <textarea id="messageInput" placeholder="Ask a Street Fighter 6 question..."></textarea>
+          <button class="btn primary" id="sendBtn">Send</button>
+        </div>
+        <div class="examples">
+          <button class="example-btn">frame</button>
+          <button class="example-btn">combo</button>
+          <button class="example-btn">strategy</button>
+          <button class="example-btn">intro</button>
+          <button class="example-btn">drive</button>
+          <button class="example-btn">super</button>
+          <button class="example-btn">midscreen</button>
+          <button class="example-btn">corner</button>
+          <button class="example-btn">Ken 5MK punish counter midscreen 4 drive SA3 best combo</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const chatWindow = document.getElementById('chatWindow');
+    const messageInput = document.getElementById('messageInput');
+    const sendBtn = document.getElementById('sendBtn');
+    const clearChatBtn = document.getElementById('clearChatBtn');
+    const refreshStatsBtn = document.getElementById('refreshStatsBtn');
+    const statFeedback = document.getElementById('statFeedback');
+    const statAvg = document.getElementById('statAvg');
+    const statGrounded = document.getElementById('statGrounded');
+    const statBlocked = document.getElementById('statBlocked');
+    const characterPanel = document.getElementById('characterPanel');
+
+    const CHARACTERS = [
+      { name: 'A.K.I.', img: '/static/icons/112px-SF6_A.K.I._Icon.png' },
+      { name: 'Akuma', img: '/static/icons/112px-SF6_Akuma_Icon.png' },
+      { name: 'Blanka', img: '/static/icons/112px-SF6_Blanka_Icon.png' },
+      { name: 'Cammy', img: '/static/icons/112px-SF6_Cammy_Icon.png' },
+      { name: 'Chun-Li', img: '/static/icons/112px-SF6_Chun-Li_Icon.png' },
+      { name: 'Dee Jay', img: '/static/icons/112px-SF6_DeeJay_Icon.png' },
+      { name: 'Dhalsim', img: '/static/icons/112px-SF6_Dhalsim_Icon.png' },
+      { name: 'Ed', img: '/static/icons/112px-SF6_Ed_Icon.png' },
+      { name: 'E. Honda', img: '/static/icons/112px-SF6_Ehonda_Icon.png' },
+      { name: 'Guile', img: '/static/icons/112px-SF6_Guile_Icon.png' },
+      { name: 'Jamie', img: '/static/icons/112px-SF6_Jamie_Icon.png' },
+      { name: 'JP', img: '/static/icons/112px-SF6_JP_Icon.png' },
+      { name: 'Juri', img: '/static/icons/112px-SF6_Juri_Icon.png' },
+      { name: 'Ken', img: '/static/icons/112px-SF6_Ken_Icon.png' },
+      { name: 'Kimberly', img: '/static/icons/112px-SF6_Kimberly_Icon.png' },
+      { name: 'Lily', img: '/static/icons/112px-SF6_Lily_Icon.png' },
+      { name: 'Luke', img: '/static/icons/112px-SF6_Luke_Icon.png' },
+      { name: 'Mai', img: '/static/icons/112px-SF6_Mai_Icon.png' },
+      { name: 'Manon', img: '/static/icons/112px-SF6_Manon_Icon.png' },
+      { name: 'Marisa', img: '/static/icons/112px-SF6_Marisa_Icon.png' },
+      { name: 'M. Bison', img: '/static/icons/112px-SF6_Mbison_Icon.png' },
+      { name: 'Rashid', img: '/static/icons/112px-SF6_Rashid_Icon.png' },
+      { name: 'Ryu', img: '/static/icons/112px-SF6_Ryu_Icon.png' },
+      { name: 'Terry', img: '/static/icons/112px-SF6_Terry_Icon.png' },
+      { name: 'Zangief', img: '/static/icons/112px-SF6_Zangief_Icon.png' }
+    ];
+
+    function escapeHtml(str) {
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+
+    function renderMarkdownLite(text) {
+      let html = escapeHtml(text || '');
+      html = html.replace(/^###\s+(.*)$/gm, '<h3>$1</h3>');
+      html = html.replace(/^##\s+(.*)$/gm, '<h2>$1</h2>');
+      html = html.replace(/^#\s+(.*)$/gm, '<h1>$1</h1>');
+      html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+      html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
+      html = html.replace(/(?:^|\n)-\s+(.*?)(?=\n(?!-\s)|$)/gs, (match) => {
+        const items = match.trim().split(/\n/).map(line => line.replace(/^-\s+/, '').trim()).filter(Boolean);
+        return '<ul>' + items.map(item => `<li>${item}</li>`).join('') + '</ul>';
+      });
+      html = html.split(/\n\n+/).map(block => {
+        if (/^<h[1-3]>/.test(block) || /^<ul>/.test(block)) return block;
+        return `<p>${block.replace(/\n/g, '<br>')}</p>`;
+      }).join('');
+      return html;
+    }
+
+    function scrollBottom() {
+      chatWindow.scrollTop = chatWindow.scrollHeight;
+    }
+
+    function addUserBubble(text) {
+      const div = document.createElement('div');
+      div.className = 'bubble user';
+      div.textContent = text;
+      chatWindow.appendChild(div);
+      scrollBottom();
+    }
+
+    function groundingBadge(payload) {
+      const tool = payload.tool_meta || {};
+      if (
+        tool.used_combo_db ||
+        tool.used_local_docs ||
+        tool.frame_found ||
+        tool.used_character_card
+      ) {
+        return { text: 'Verified', cls: 'green' };
+      }
+      const source = String(payload.source || '').toLowerCase();
+      const confidence = String(payload.confidence || '').toLowerCase();
+      if (source.includes('wiki') || confidence === 'medium') {
+        return { text: 'Estimated', cls: 'yellow' };
+      }
+      return { text: 'Low certainty', cls: 'red' };
+    }
+
+    function renderValue(value) {
+      if (value === null || value === undefined || value === '') return '-';
+      if (typeof value === 'object' && !Array.isArray(value)) {
+        return Object.entries(value)
+          .map(([k, v]) => `<div><strong>${escapeHtml(k)}:</strong> ${escapeHtml(v)}</div>`)
+          .join('');
+      }
+      return escapeHtml(value);
+    }
+
+    function renderTableRows(obj) {
+      return Object.entries(obj || {})
+        .map(([key, value]) => `
+          <tr>
+            <th>${escapeHtml(key)}</th>
+            <td>${renderValue(value)}</td>
+          </tr>
+        `)
+        .join('');
+    }
+
+    function toggleCard(id) {
+      const el = document.getElementById(id);
+      if (!el) return;
+
+      el.classList.toggle("open");
+
+      const btn = document.querySelector(`button[onclick="toggleCard('${id}')"]`);
+      if (btn) {
+        btn.textContent = el.classList.contains("open")
+          ? "Hide Stats ▲"
+          : "Show Stats ▼";
+      }
+    }
+
+    function normalizeSectionName(name) {
+      return String(name || '')
+        .toLowerCase()
+        .replace(/[_-]+/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+    }
+
+    function buildSectionHtml(sectionName, sectionData) {
+      return `
+        <div class="character-section">
+          <h4>${escapeHtml(sectionName)}</h4>
+          <table class="character-table">
+            <tbody>
+              ${renderTableRows(sectionData)}
+            </tbody>
+          </table>
+        </div>
+      `;
+    }
+
+    function renderCharacterCard(card) {
+      if (!card) return '';
+
+      const id = "card-" + Math.random().toString(36).slice(2);
+      const profileRows = renderTableRows(card.profile || {});
+
+      const sections = Object.entries(card.stats_sections || {});
+      const leftOrder = ['basic', 'jumping', 'throws'];
+      const rightPrimary = ['ground movements'];
+
+      const leftSections = [];
+      const rightSections = [];
+      const remainingSections = [];
+
+      sections.forEach(([sectionName, sectionData]) => {
+        const normalized = normalizeSectionName(sectionName);
+
+        if (leftOrder.includes(normalized)) {
+          leftSections.push({ sectionName, sectionData, normalized });
+        } else if (rightPrimary.includes(normalized)) {
+          rightSections.push({ sectionName, sectionData, normalized });
+        } else {
+          remainingSections.push({ sectionName, sectionData, normalized });
+        }
+      });
+
+      leftSections.sort((a, b) => leftOrder.indexOf(a.normalized) - leftOrder.indexOf(b.normalized));
+      rightSections.sort((a, b) => rightPrimary.indexOf(a.normalized) - rightPrimary.indexOf(b.normalized));
+
+      remainingSections.forEach(item => rightSections.push(item));
+
+      if (leftSections.length === 0 && rightSections.length === 0 && sections.length > 0) {
+        sections.forEach(([sectionName, sectionData], index) => {
+          const item = { sectionName, sectionData };
+          if (index % 2 === 0) leftSections.push(item);
+          else rightSections.push(item);
+        });
+      }
+
+      const leftHtml = leftSections.map(item => buildSectionHtml(item.sectionName, item.sectionData)).join('');
+      const rightHtml = rightSections.map(item => buildSectionHtml(item.sectionName, item.sectionData)).join('');
+
+      return `
+        <div class="character-card">
+          <div class="character-card-header big-header">
+            <div class="character-image-wrap big-image-wrap">
+              ${
+                card.image
+                  ? `<img class="character-image big-image" src="${escapeHtml(card.image)}" alt="${escapeHtml(card.name || 'character')}" />`
+                  : `<div class="small-note">No image</div>`
+              }
+            </div>
+
+            <div class="character-summary">
+              <h3>${escapeHtml(card.name || 'Unknown')}</h3>
+              ${
+                card.source
+                  ? `<div class="small-note">Source: ${escapeHtml(card.source)}</div>`
+                  : ''
+              }
+
+              <button class="toggle-btn" onclick="toggleCard('${id}')">
+                Show Stats ▼
+              </button>
+            </div>
+          </div>
+
+          <div class="character-section">
+            <h4>Profile</h4>
+            <table class="character-table">
+              <tbody>
+                ${profileRows}
+              </tbody>
+            </table>
+          </div>
+
+          <div id="${id}" class="stats-collapsed">
+            <div class="section-grid">
+              <div class="stats-column">
+                ${leftHtml}
+              </div>
+              <div class="stats-column">
+                ${rightHtml}
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function createAssistantBubble(payload, question) {
+      const wrap = document.createElement('div');
+      wrap.className = 'bubble assistant';
+
+      const content = document.createElement('div');
+      content.className = 'markdown';
+      content.innerHTML = renderMarkdownLite(payload.reply || 'No response');
+      wrap.appendChild(content);
+
+      if (payload.character_card) {
+        const cardWrap = document.createElement('div');
+        cardWrap.innerHTML = renderCharacterCard(payload.character_card);
+        wrap.appendChild(cardWrap);
+      }
+
+      const g = groundingBadge(payload);
+      const meta = document.createElement('div');
+      meta.className = 'meta-row';
+      meta.innerHTML = `
+        <span class="chip ${g.cls}">${g.text}</span>
+        <span class="chip blue">Source: ${escapeHtml(payload.source || '-')}</span>
+        <span class="chip">Confidence: ${escapeHtml(payload.confidence || '-')}</span>
+      `;
+      wrap.appendChild(meta);
+
+      const feedback = document.createElement('div');
+      feedback.className = 'feedback-mini';
+      feedback.innerHTML = `
+        <button class="fb-btn" data-type="like">👍</button>
+        <button class="fb-btn" data-type="dislike">👎</button>
+        <select class="fb-rating">
+          <option value="">Rate</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        <input class="fb-input" placeholder="correction..." />
+        <button class="fb-submit">Save</button>
+      `;
+
+      let feedbackType = 'neutral';
+      feedback.querySelectorAll('.fb-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          feedbackType = btn.dataset.type;
+          feedback.querySelectorAll('.fb-btn').forEach(x => x.classList.remove('active'));
+          btn.classList.add('active');
+        });
+      });
+
+      feedback.querySelector('.fb-submit').addEventListener('click', async () => {
+        const ratingValue = feedback.querySelector('.fb-rating').value;
+        const comment = feedback.querySelector('.fb-input').value.trim();
+        try {
+          const res = await fetch('/feedback', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              answer_id: payload.answer_id,
+              question,
+              answer: payload.reply,
+              feedback_type: feedbackType,
+              rating: ratingValue ? Number(ratingValue) : null,
+              comment,
+              source: payload.source,
+              confidence: payload.confidence,
+              question_type: payload.question_type
+            })
+          });
+          const result = await res.json();
+          if (!res.ok) throw new Error(result.message || 'Feedback failed');
+          feedback.innerHTML = '<span class="chip green">Saved</span><span class="chip blue">Will apply on next matching query</span>';
+          refreshStats();
+        } catch (err) {
+          feedback.innerHTML = '<span class="chip red">Save failed</span>';
+        }
+      });
+
+      wrap.appendChild(feedback);
+      chatWindow.appendChild(wrap);
+      scrollBottom();
+    }
+
+    function addLoading() {
+      const div = document.createElement('div');
+      div.className = 'bubble assistant';
+      div.id = 'loadingBubble';
+      div.innerHTML = '<div class="loading"><span>Thinking</span><span class="dots"><span></span><span></span><span></span></span></div>';
+      chatWindow.appendChild(div);
+      scrollBottom();
+    }
+
+    function removeLoading() {
+      const node = document.getElementById('loadingBubble');
+      if (node) node.remove();
+    }
+
+    function insertText(text) {
+      const input = messageInput;
+      const start = input.selectionStart ?? input.value.length;
+      const end = input.selectionEnd ?? input.value.length;
+      const before = input.value.slice(0, start);
+      const after = input.value.slice(end);
+
+      const needSpaceBefore = before.length > 0 && !/\s$/.test(before);
+      const needSpaceAfter = after.length > 0 && !/^\s/.test(after);
+
+      const inserted = `${needSpaceBefore ? ' ' : ''}${text}${needSpaceAfter ? ' ' : ''}`;
+
+      input.value = before + inserted + after;
+
+      const newPos = before.length + inserted.length;
+      input.focus();
+      input.setSelectionRange(newPos, newPos);
+    }
+
+    function renderCharacterButtons() {
+      characterPanel.innerHTML = CHARACTERS.map(char => `
+        <button class="character-btn" data-insert="${escapeHtml(char.name)}" title="${escapeHtml(char.name)}">
+          <img src="${escapeHtml(char.img)}" alt="${escapeHtml(char.name)}" />
+          <div class="character-name">${escapeHtml(char.name)}</div>
+        </button>
+      `).join('');
+    }
+
+    async function sendMessage() {
+      const message = messageInput.value.trim();
+      if (!message) return;
+      addUserBubble(message);
+      messageInput.value = '';
+      addLoading();
+      sendBtn.disabled = true;
+      try {
+        const res = await fetch('/chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ message })
+        });
+        const payload = await res.json();
+        removeLoading();
+        if (!res.ok) throw new Error(payload.reply || payload.message || 'Chat error');
+        createAssistantBubble(payload, message);
+        refreshStats();
+      } catch (err) {
+        removeLoading();
+        createAssistantBubble({
+          reply: 'Server error: ' + err.message,
+          source: 'frontend_error',
+          confidence: 'low',
+          question_type: 'error',
+          answer_id: 'local-' + Date.now(),
+          character_card: null
+        }, message);
+      } finally {
+        sendBtn.disabled = false;
+      }
+    }
+
+    async function refreshStats() {
+      try {
+        const res = await fetch('/stats');
+        const payload = await res.json();
+        if (!res.ok) return;
+        const feedback = payload.feedback || {};
+        const evaluation = payload.evaluation || {};
+        statFeedback.textContent = feedback.total_feedback ?? 0;
+        statAvg.textContent = feedback.average_rating ?? '-';
+        statGrounded.textContent = evaluation.local_grounded_queries ?? 0;
+        statBlocked.textContent = evaluation.blocked_injection_attempts ?? 0;
+      } catch (err) {
+        console.error(err);
+      }
+    }
+
+    sendBtn.addEventListener('click', sendMessage);
+
+    messageInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && !e.shiftKey) {
+        e.preventDefault();
+        sendMessage();
+      }
+    });
+
+    clearChatBtn.addEventListener('click', () => {
+      chatWindow.innerHTML = '';
+    });
+
+    refreshStatsBtn.addEventListener('click', refreshStats);
+
+    document.addEventListener('click', (e) => {
+      const target = e.target.closest('[data-insert]');
+      if (target) {
+        insertText(target.dataset.insert);
+      }
+    });
+
+    document.querySelectorAll('.example-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const text = btn.textContent.trim().toLowerCase();
+        if (text === 'frame') {
+          insertText('frame');
+        } else if (text === 'combo') {
+          insertText('combo');
+        } else if (text === 'strategy') {
+          insertText('strategy');
+        } else if (text === 'intro') {
+          insertText('intro');
+        } else if (text === 'drive') {
+          insertText('drive');
+        } else if (text === 'super') {
+          insertText('super');
+        } else if (text === 'midscreen') {
+          insertText('midscreen');
+        } else if (text === 'corner') {
+          insertText('corner');
+        } else if (text === 'Ken 5MK punish counter midscreen 4 drive SA3 best combo') {
+          messageInput.value = 'Ken 5MK punish counter midscreen 4 drive SA3 best combo';
+        } else {
+          messageInput.value = btn.textContent.trim();
+        }
+        messageInput.focus();
+      });
+    });
+
+    renderCharacterButtons();
+    refreshStats();
+  </script>
+</body>
+</html>
